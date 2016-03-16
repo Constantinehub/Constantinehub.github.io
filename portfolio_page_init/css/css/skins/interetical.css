@@ -1,0 +1,114 @@
+body {
+  color: #222;
+  letter-spacing: 1px; }
+
+a {
+  color: #6D00A0; }
+
+p,
+body .main_footer,
+.s_about li {
+  color: #888; }
+
+.color_element {
+  color: #6D00A0; }
+
+.color_bg {
+  background-color: #6D00A0; }
+
+.color_border {
+  border-color: #6D00A0; }
+
+.bg_light {
+  background-color: #FAFAFA; }
+
+.bg_dark {
+  background-color: #222;
+  color: #fff; }
+  .bg_dark .s_descr::after {
+    background-color: #fff; }
+  .bg_dark a {
+    color: #fff; }
+
+svg path {
+  fill: #888; }
+
+.toggle_mnu {
+  background-color: #222; }
+
+.top_mnu a:hover {
+  color: #6D00A0;
+  background-color: rgba(255, 255, 255, 0.05);
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+.top_mnu a {
+  letter-spacing: 4px; }
+
+.top_text p {
+  color: #FAFAFA;
+  letter-spacing: 5px; }
+
+.personal_header {
+  letter-spacing: 2px; }
+
+.s_descr {
+  letter-spacing: 5px; }
+  .s_descr::after {
+    background-color: #222; }
+
+section h3 {
+  letter-spacing: 3px;
+  color: #888; }
+
+.s_about p:nth-child(even) {
+  color: #6D00A0; }
+
+.resume_container h3 {
+  color: #222;
+  letter-spacing: 1px; }
+
+.resume_item .year {
+  background-color: #6D00A0;
+  color: #fff; }
+.resume_item .resume_descr {
+  letter-spacing: 1px; }
+
+.s_portfolio li {
+  letter-spacing: 2px;
+  color: #888; }
+  .s_portfolio li.active {
+    color: #fff;
+    border-bottom: 1px solid #6D00A0; }
+
+.portfolio_item .portfolio_hover_content h4 {
+  color: #fff;
+  letter-spacing: 3px; }
+.portfolio_item .portfolio_hover_content a {
+  color: #6D00A0;
+  border-color: #6D00A0; }
+
+.port_descr {
+  background-color: #eee; }
+  .port_descr h3 {
+    letter-spacing: 3px; }
+
+.main_footer a {
+  color: #6D00A0; }
+
+.contact_icon {
+  color: #6D00A0; }
+
+.main_form button {
+  background-color: #6D00A0;
+  color: #fff;
+  letter-spacing: 2px; }
+.main_form input:focus,
+.main_form textarea:focus {
+  border: 1px solid #6D00A0;
+  letter-spacing: 2px; }
+.main_form .form-group {
+  letter-spacing: 2px;
+  color: #888; }
+
+/*# sourceMappingURL=interetical.css.map */
