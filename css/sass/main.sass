@@ -349,21 +349,24 @@ $h: 3px
 .portfolio_item
 	display: none
 	padding: 0
+	overflow: hidden
+	height: 219px
 	img
 		width: 100%
+		height: auto
 	.portfolio_hover_content
 		position: absolute
-		top: 0
+		top: 100%
 		left: 0
 		width: 100%
 		height: 100%
 		background-color: rgba(0,0,0,.7)
 		text-align: center
-		padding-top: 15%
 		opacity: 0
 		transition: all .5s
 	&:hover .portfolio_hover_content
 		opacity: 1
+		top: 0
 		padding-top: 20%
 	h4
 		text-transform: uppercase
@@ -390,6 +393,19 @@ $h: 3px
 		text-transform: uppercase
 		font-weight: 400
 		margin-top: 20px
+	.fullscreen_link
+		background: #fff none repeat scroll 0 0
+		border-radius: 0 25px 25px 0
+		color: #3fc2fc
+		display: inline-block
+		font-size: 15px
+		font-weight: bold
+		margin-bottom: 20px
+		padding: 10px 20px
+	.fullscreen_link:hover
+		text-decoration: underline
+		margin-left: 10px
+		-moz-transition: all .5s
 .modal-box-content
 	position: relative
 .contact_box

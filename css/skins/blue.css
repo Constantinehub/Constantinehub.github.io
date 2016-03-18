@@ -87,6 +87,8 @@ section h3 {
 .portfolio_item .portfolio_hover_content a {
   color: #3FC2FC;
   border-color: #3FC2FC; }
+.portfolio_item .portfolio_hover_content p {
+  color: #FF6347; }
 
 .port_descr {
   background-color: #eee; }

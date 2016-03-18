@@ -1,0 +1,478 @@
+html, body, div, span, applet, object, iframe
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, 
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html {height: 100%;}
+body {
+	height: 100%;
+	font: 14px/16px 'Raleway-Regular', Arial, sans-serif;
+	color: #6c7279;
+	background: #fff;
+}
+
+ol, ul {list-style: none;}
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+
+	-webkit-box-sizing: border-box;
+		 -moz-box-sizing: border-box;
+			 -o-box-sizing: border-box;
+					box-sizing: border-box;
+}
+
+a, a:hover {color: #000; text-decoration: none;}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {clear: both;}
+
+.left {float: left;}
+.right {float: right;}
+.text-right {text-align: right;}
+.text-center {text-align: center;}
+
+#wrapper {width: 100%;}
+
+.content-center {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.panel-top {
+	height: 750px;
+	background: #2f334d url(../image/header-img.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+.header-menu {
+	height: 100px;
+	border-bottom: 1px solid #4f5268;
+}
+
+.header-menu img {
+	float: left;
+	display: block;
+	padding: 38px 0;
+}
+.header-menu a + a {margin-left: 60px;}
+.header-menu a:nth-child(n+2) {
+	font: 13px Raleway Bold;
+	padding-top: 42px;
+	color: #fff;
+	text-transform: uppercase;
+	float: right;
+}
+.header-menu a:nth-child(n+2):hover {
+	text-decoration: underline;
+}
+
+.header-face {
+	padding: 155px 150px;
+}
+.header-face h1 {
+	font: 65px/70px Open Sans;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+}
+.header-face p {
+	margin: 30px 0;
+	font: 22px/22px Raleway Regular, sans-serif;
+	color: #fff;
+}
+.header-face a {
+	font: 13px Raleway SemiBold, sans-serif;
+	font-weight: bold;
+	padding: 17px 50px;
+	margin-top: 30px;
+	color: #fff;
+	text-transform: uppercase;
+	background: #e84545;
+	border-radius: 3px;
+	display: inline-block;
+}
+.header-face a:hover {
+	box-shadow: 0 0 10px rgba(119,127,175,.9);
+}
+
+#features {
+	height: 700px;
+	text-align: center;
+	background: #fff;
+}
+
+.box {
+	padding: 120px 0;
+}
+
+h5.title {
+	margin-bottom: 10px;
+	font: bold 14px/14px "Raleway Bold", sans-serif;
+	text-transform: uppercase;
+	color: #2d3033;
+}
+
+.features-item {
+	float: left;
+	width: 33.33%;
+	padding: 90px 30px 0;
+	margin-bottom: 45px;
+}
+
+.features-item:nth-child(n+4) {margin-bottom: 0;}
+
+.features-item p {
+	font: 14px/24px "Raleway Regular", sans-serif;
+	color: #6c7279;
+}
+
+.custom {
+	background: url(../image/custom.png) no-repeat center top;
+	cursor: pointer;
+}
+.responsive {
+	background: url(../image/responsive.png) no-repeat center top;
+	cursor: pointer;
+}
+.modern {
+	background: url(../image/modern.png) no-repeat center top;
+	cursor: pointer;
+}
+.clean {
+	background: url(../image/clean.png) no-repeat center top;
+	cursor: pointer;
+}
+.ship {
+	background: url(../image/ship.png) no-repeat center top;
+	cursor: pointer;
+}
+.download {
+	background: url(../image/download.png) no-repeat center top;
+	cursor: pointer;
+}
+
+#portfolio {
+	height:100%;
+}
+
+
+
+
+
+.item-row {
+	font: 14px Arial, sans-serif;
+	text-align: justify;
+
+	line-height: 0;
+	font-size: 1px;
+
+	/*Лекарство для IE 6-7*/
+	text-justify: newspaper;
+	zoom: 1;
+
+	text-align-last: justify;
+}
+
+.item-row:after {
+	width: 100%;
+	height: 0;
+	visibility: hidden;
+	overflow: hidden;
+	content: '';
+	display: inline-block;
+}
+
+.item-row li {
+	width: 24.8%;
+	height: 100%;
+	display: inline-block;
+	text-align: left;
+
+	/*Восстанавливаем у потомков кроме последнего*/
+	font-size: 14px;
+
+	/*Без него в Opera будут отступ снизу*/
+	vertical-align: top;
+}
+.item-row li:nth-child(4) {padding-right: 0;}
+.item-row img {
+	width: 99.9%;
+}
+#last {margin-top: 0.2%;}
+
+
+
+
+
+.teams {
+	height: 562px;
+	margin: 100px 0;
+}
+
+.team-item {
+	width: 270px;
+	height: 100%;
+	margin-right: 30px;
+	background: #fff;
+	float: left;
+}
+.team-item:last-child {margin-right: 0;}
+
+.team-photo {
+	position: relative;
+	overflow: hidden;
+}
+
+.team-photo img {
+	width: 100%;
+	height: 270px;
+}
+
+.teams-footer {
+	margin-top: 20px;
+	font-family: "Raleway Regular", sans-serif;
+}
+
+.teams-footer h4 {
+	margin-bottom: 10px;
+	font-size: 22px;
+	color: #2d3033;
+}
+
+.teams-footer span {
+	font-size: 13px;
+	color: #e84545;
+	text-transform: uppercase;
+}
+
+.teams-footer p {
+	margin-top: 20px;
+	font-size: 14px;
+	color: #6c7279;
+	line-height: 21px;
+}
+
+.social-link {
+	margin-top: 40px;
+}
+
+.social-link a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin: 0 3px;
+	border: 2px solid #e8ecee;
+	background: url(../image/social-footer-sprite-2.png) no-repeat;
+}
+
+.social-link a:last-child {margin-right: 0;}
+.social-link a:first-child {margin-left: 0;}
+
+.social-link a.team-ic-fb {
+	background-position: 8px 9px;
+}
+
+.social-link a.team-ic-fb:hover {
+	background-color: #405D9B;
+	border-color: #405D9B;
+	-webkit-transition: 0.3s;
+		 -moz-transition: 0.3s;
+			 -o-transition: 0.3s;
+					transition: 0.3s;
+}
+
+.social-link a.team-ic-tw {
+	background-position: 8px -20px;
+}
+
+.social-link a.team-ic-tw:hover {
+	background-color: #1DA1F2;
+	border-color: #1DA1F2;
+	-webkit-transition: 0.3s;
+		 -moz-transition: 0.3s;
+			 -o-transition: 0.3s;
+					transition: 0.3s;
+}
+
+.social-link a.team-ic-in {
+	background-position: 8px -46px;
+}
+
+.social-link a.team-ic-in:hover {
+	background-color: #f5910f;
+	border-color: #f5910f;
+	-webkit-transition: 0.3s;
+		 -moz-transition: 0.3s;
+			 -o-transition: 0.3s;
+					transition: 0.3s;
+}
+
+
+.slide {
+	width: 100%;
+}
+
+.slide img {
+	width: 100%;
+	display: block;
+}
+
+.download-block {
+	height: 100%;
+	text-align: center;
+	padding: 100px 0;
+	background: #fff;}
+
+.download-block h5 {
+	font: 28px "Raleway Light", sans-serif;
+	color: #2d3033;
+	margin-bottom: 10px;
+}
+
+.download-block p {
+	font: 13px "Raleway Bold", sans-serif;
+	font-weight: bold;
+	color: #2d3033;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+
+.download-block a {
+	font: 13px "Raleway SemiBold", sans-serif;
+	font-weight: bolder;
+	padding: 20px 80px;
+	color: #fff;
+	text-transform: uppercase;
+	background: #e84545;
+	border-radius: 2px;
+}
+
+.download-block a:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,.9);
+}
+
+.footer-block {
+	height: 350px;
+}
+
+.footer-column {
+	height: 75%;
+	background: #3a3e64;
+}
+
+.footer-copyright {
+	font: 14px/20px "Raleway Regular", sans-serif;
+	font-weight: bold;
+	height: 25%;
+	padding: 25px 0;
+	background: #313454;
+	text-align: center;
+}
+
+.copy-heart {
+	width: 10px;
+	height: 10px;
+	padding: 0 20px;
+	color: #fff;
+	background: url(../image/heart.png) no-repeat;
+}
+
+.copy-heart:hover {
+	text-decoration: underline;
+	color: #fff;
+}
+
+.column {
+	width: 33.33%;
+	height: 100px;
+	padding-top: 70px;
+	float: left;
+	display: block;
+	text-align: center;
+}
+
+.column h5 {
+	font: 14px "Raleway Bold", sans-serif;
+	font-weight: bold;
+	margin-bottom: 15px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.column p {
+	font: 14px "Raleway Regular", sans-serif;
+	font-weight: normal;
+	color: #fff;
+}
+
+.social-footer a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin: 0 3px;
+	border: 2px solid #fff;
+	background: url(../image/social-footer-sprite.png) no-repeat;
+}
+
+.social-footer a.ic-fb {
+	background-position: 8px 9px;
+}
+
+.social-footer a.ic-fb:hover {
+	background-color: #405D9B;
+	border-color: #405D9B;
+	-webkit-transition: 0.3s;
+		 -moz-transition: 0.3s;
+			 -o-transition: 0.3s;
+					transition: 0.3s;
+}
+
+.social-footer a.ic-tw {
+	background-position: 8px -20px;
+}
+
+.social-footer a.ic-tw:hover {
+	background-color: #1DA1F2;
+	border-color: #1DA1F2;
+	-webkit-transition: 0.3s;
+		 -moz-transition: 0.3s;
+			 -o-transition: 0.3s;
+					transition: 0.3s;
+}
+
+.social-footer a.ic-in {
+	background-position: 8px -46px;
+}
+
+.social-footer a.ic-in:hover {
+	background-color: #f5910f;
+	border-color: #f5910f;
+	-webkit-transition: 0.3s;
+		 -moz-transition: 0.3s;
+			 -o-transition: 0.3s;
+					transition: 0.3s;
+}
+
+
