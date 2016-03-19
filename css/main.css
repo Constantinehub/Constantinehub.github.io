@@ -6,7 +6,11 @@ body {
   position: relative;
   overflow-x: hidden;
   line-height: 1.42857;
-  -webkit-font-smoothing: antialised; }
+  -webkit-font-smoothing: antialised;
+  -moz-font-smoothing: antialised;
+  -ms-font-smoothing: antialised;
+  -o-font-smoothing: antialised;
+  font-smoothing: antialised; }
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
@@ -133,6 +137,10 @@ svg {
   background: white;
   border: none;
   border-radius: 4px 4px 4px 4px;
+  -webkit-transition: transform 0.5s, top 0.2s;
+  -moz-transition: transform 0.5s, top 0.2s;
+  -ms-transition: transform 0.5s, top 0.2s;
+  -o-transition: transform 0.5s, top 0.2s;
   transition: transform 0.5s, top 0.2s;
   display: block; }
 
@@ -144,7 +152,15 @@ svg {
   background: white;
   border: none;
   border-radius: 4px 4px 4px 4px;
+  -webkit-transition: transform 0.5s, top 0.2s;
+  -moz-transition: transform 0.5s, top 0.2s;
+  -ms-transition: transform 0.5s, top 0.2s;
+  -o-transition: transform 0.5s, top 0.2s;
   transition: transform 0.5s, top 0.2s;
+  -webkit-transition-delay: 0.2s, 0s;
+  -moz-transition-delay: 0.2s, 0s;
+  -ms-transition-delay: 0.2s, 0s;
+  -o-transition-delay: 0.2s, 0s;
   transition-delay: 0.2s, 0s;
   display: block; }
 
@@ -156,22 +172,54 @@ svg {
   background: white;
   border: none;
   border-radius: 4px 4px 4px 4px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
+  -webkit-transition-delay: 0.1s;
+  -moz-transition-delay: 0.1s;
+  -ms-transition-delay: 0.1s;
+  -o-transition-delay: 0.1s;
   transition-delay: 0.1s;
   display: block; }
 
 .sandwich.active .sw-topper {
   top: 9px;
+  -webkit-transform: rotate(140deg);
+  -moz-transform: rotate(140deg);
+  -ms-transform: rotate(140deg);
+  -o-transform: rotate(140deg);
   transform: rotate(140deg);
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s; }
 .sandwich.active .sw-bottom {
   top: 6px;
+  -webkit-transform: rotate(-140deg);
+  -moz-transform: rotate(-140deg);
+  -ms-transform: rotate(-140deg);
+  -o-transform: rotate(-140deg);
   transform: rotate(-140deg);
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s; }
 .sandwich.active .sw-footer {
   opacity: 0;
   top: 0;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
   transform: rotate(180deg);
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s; }
 
 .top_mnu {
@@ -360,6 +408,7 @@ svg {
 .portfolio_item {
   display: none;
   padding: 0;
+  margin: 0;
   overflow: hidden;
   height: 219px; }
   .portfolio_item img {
@@ -367,18 +416,32 @@ svg {
     height: auto; }
   .portfolio_item .portfolio_hover_content {
     position: absolute;
-    top: 100%;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+    padding-top: 15%;
     background-color: rgba(0, 0, 0, 0.7);
     text-align: center;
     opacity: 0;
-    transition: all 0.5s; }
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0); }
   .portfolio_item:hover .portfolio_hover_content {
     opacity: 1;
     top: 0;
-    padding-top: 20%; }
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); }
   .portfolio_item h4 {
     text-transform: uppercase;
     font-weight: normal;
@@ -391,9 +454,12 @@ svg {
     display: inline-block; }
 
 .port_descr {
-  background-color: #fff;
+  background-image: url("../img/geometry.png");
+  border: 5px solid #fff;
+  border-radius: 10px;
   max-width: 600px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-top: 50px; }
   .port_descr img {
     width: 100%; }
   .port_descr h3,
@@ -406,18 +472,22 @@ svg {
     font-weight: 400;
     margin-top: 20px; }
   .port_descr .fullscreen_link {
-    background: #fff none repeat scroll 0 0;
+    background: #3FC2FC none repeat scroll 0 0;
     border-radius: 0 25px 25px 0;
-    color: #3fc2fc;
+    color: #fff;
     display: inline-block;
     font-size: 15px;
     font-weight: bold;
     margin-bottom: 20px;
-    padding: 10px 20px; }
+    padding: 10px 20px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
   .port_descr .fullscreen_link:hover {
     text-decoration: underline;
-    margin-left: 10px;
-    -moz-transition: all 0.5s; }
+    padding-left: 30px; }
 
 .modal-box-content {
   position: relative; }

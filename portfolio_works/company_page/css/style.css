@@ -1,0 +1,160 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'PT Sans', 'sans-serif', 'tahoma', 'Arial';
+}
+
+header {
+	width: 100%;
+}
+
+table, td, th {
+	border: 1px solid white;
+	text-align: center;
+}
+
+table {
+	width: 100%;
+}
+
+td, th {
+	padding: 5px;
+	color: #fff;
+}
+
+th {
+	background: #556066;
+}
+
+td {
+	background: #131919;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: underline;
+	color: #fff;
+	font-weight: bold;
+}
+
+ul>li>a {
+	color: #000;
+	font-weight: normal;
+}
+
+ol {
+	font-weight: bold;
+}
+
+.footer {
+	height: 80px;
+	background: #222;
+	color: #fff;
+}
+
+.footer-text {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.container {
+	padding: 0;
+}
+
+.content-row {
+	height: 100%;
+	background: #fff;
+	margin: 15px 20px 20px;
+}
+
+.content-top {
+	height:350px;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, 
+.col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, 
+.col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, 
+.col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, 
+.col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, 
+.col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, 
+.col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, 
+.col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, 
+.col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, 
+.col-sm-12, .col-md-12, .col-lg-12 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.header-img {
+	width: 1170px;
+	height: 200px;
+	background: #222;
+	margin: 0 auto;
+}
+
+.header-img p {
+	font: 40px Arial, sans-serif;
+	color: #fff;
+	text-align: center;
+	padding-top: 70px;
+}
+
+.line {
+	margin-top: 20px;
+}
+
+.second-line {
+	padding-right: 1px;
+}
+
+.gradient-line {
+	background: linear-gradient(to top, #B1B2B4, #55565A);
+	padding: 10px 15px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.img-top {
+	position: relative;
+	float: left;
+	margin: 7px 10px 10px 0px;
+}
+
+.text-right {
+	text-align: left;
+}
+
+.number {
+	margin-left: 17px;
+}
+
+.universal-list {
+	margin-left: 30px;
+}
+
+.text-in-list {
+	font-weight: normal;
+}
+
+.img-down {
+	margin-top: -7px;
+}
+
+.top-left, .top-right {
+	height: 160px;
+}
+
+.middle-content-text {
+	line-height: 25px;
+	padding: 0px 10px 0px 10px;
+}
+
+#center-wrap {
+	height: 100%;
+	padding-bottom: 20px;
+}
+
+#right-img {
+	float: right;
+	margin-left:10px;
+}

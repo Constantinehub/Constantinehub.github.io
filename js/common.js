@@ -75,7 +75,9 @@ $(document).ready(function() {
 	});
 
 
-	
+/*	$(".portfolio_item").hover(function() {
+		$(".portfolio_hover_content").animated("flipInX", "flipOutX");
+	});*/
 
 	$("input, select, textarea").jqBootstrapValidation();
 

@@ -9,6 +9,10 @@ body
 	overflow-x: hidden
 	line-height: 1.42857
 	-webkit-font-smoothing: antialised
+	-moz-font-smoothing: antialised
+	-ms-font-smoothing: antialised
+	-o-font-smoothing: antialised
+	font-smoothing: antialised
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid
@@ -136,6 +140,10 @@ $h: 3px
 	background: rgb(255, 255, 255)
 	border: none
 	border-radius: 4px 4px 4px 4px
+	-webkit-transition: transform 0.5s, top 0.2s
+	-moz-transition: transform 0.5s, top 0.2s
+	-ms-transition: transform 0.5s, top 0.2s
+	-o-transition: transform 0.5s, top 0.2s
 	transition: transform 0.5s, top 0.2s
 	display: block
 
@@ -148,7 +156,15 @@ $h: 3px
 	background: rgb(255, 255, 255)
 	border: none
 	border-radius: 4px 4px 4px 4px
+	-webkit-transition: transform 0.5s, top 0.2s
+	-moz-transition: transform 0.5s, top 0.2s
+	-ms-transition: transform 0.5s, top 0.2s
+	-o-transition: transform 0.5s, top 0.2s
 	transition: transform 0.5s, top 0.2s
+	-webkit-transition-delay: 0.2s, 0s
+	-moz-transition-delay: 0.2s, 0s
+	-ms-transition-delay: 0.2s, 0s
+	-o-transition-delay: 0.2s, 0s
 	transition-delay: 0.2s, 0s
 	display: block
 .sw-footer
@@ -159,22 +175,54 @@ $h: 3px
 	background: rgb(255, 255, 255)
 	border: none
 	border-radius: 4px 4px 4px 4px
+	-webkit-transition: all 0.5s
+	-moz-transition: all 0.5s
+	-ms-transition: all 0.5s
+	-o-transition: all 0.5s
 	transition: all 0.5s
+	-webkit-transition-delay: 0.1s
+	-moz-transition-delay: 0.1s
+	-ms-transition-delay: 0.1s
+	-o-transition-delay: 0.1s
 	transition-delay: 0.1s
 	display: block
 .sandwich.active
 	.sw-topper
 		top: 9px
+		-webkit-transform: rotate(140deg)
+		-moz-transform: rotate(140deg)
+		-ms-transform: rotate(140deg)
+		-o-transform: rotate(140deg)
 		transform: rotate(140deg)
+		-webkit-transition: all 0.5s
+		-moz-transition: all 0.5s
+		-ms-transition: all 0.5s
+		-o-transition: all 0.5s
 		transition: all 0.5s
 	.sw-bottom
 		top: 6px
+		-webkit-transform: rotate(-140deg)
+		-moz-transform: rotate(-140deg)
+		-ms-transform: rotate(-140deg)
+		-o-transform: rotate(-140deg)
 		transform: rotate(-140deg)
+		-webkit-transition: all 0.5s
+		-moz-transition: all 0.5s
+		-ms-transition: all 0.5s
+		-o-transition: all 0.5s
 		transition: all 0.5s
 	.sw-footer
 		opacity: 0
 		top: 0
+		-webkit-transform: rotate(180deg)
+		-moz-transform: rotate(180deg)
+		-ms-transform: rotate(180deg)
+		-o-transform: rotate(180deg)
 		transform: rotate(180deg)
+		-webkit-transition: all 0.5s
+		-moz-transition: all 0.5s
+		-ms-transition: all 0.5s
+		-o-transition: all 0.5s
 		transition: all 0.5s
 
 .top_mnu
@@ -349,6 +397,7 @@ $h: 3px
 .portfolio_item
 	display: none
 	padding: 0
+	margin: 0
 	overflow: hidden
 	height: 219px
 	img
@@ -356,18 +405,32 @@ $h: 3px
 		height: auto
 	.portfolio_hover_content
 		position: absolute
-		top: 100%
+		top: 0
 		left: 0
 		width: 100%
 		height: 100%
+		padding-top: 15%
 		background-color: rgba(0,0,0,.7)
 		text-align: center
 		opacity: 0
+		-webkit-transition: all .5s
+		-moz-transition: all .5s
+		-ms-transition: all .5s
+		-o-transition: all .5s
 		transition: all .5s
+		-webkit-transform: scale(0)
+		-moz-transform: scale(0)
+		-ms-transform: scale(0)
+		-o-transform: scale(0)
+		transform: scale(0)
 	&:hover .portfolio_hover_content
 		opacity: 1
 		top: 0
-		padding-top: 20%
+		-webkit-transform: scale(1)
+		-moz-transform: scale(1)
+		-ms-transform: scale(1)
+		-o-transform: scale(1)
+		transform: scale(1)
 	h4
 		text-transform: uppercase
 		font-weight: normal
@@ -379,9 +442,12 @@ $h: 3px
 		padding: 5px 10px
 		display: inline-block
 .port_descr
-	background-color: #fff
+	background-image: url("../img/geometry.png")
+	border: 5px solid #fff
+	border-radius: 10px
 	max-width: 600px
 	margin: 0 auto
+	margin-top: 50px
 	img
 		width: 100%
 	h3,
@@ -394,18 +460,22 @@ $h: 3px
 		font-weight: 400
 		margin-top: 20px
 	.fullscreen_link
-		background: #fff none repeat scroll 0 0
+		background: #3FC2FC none repeat scroll 0 0
 		border-radius: 0 25px 25px 0
-		color: #3fc2fc
+		color: #fff
 		display: inline-block
 		font-size: 15px
 		font-weight: bold
 		margin-bottom: 20px
 		padding: 10px 20px
+		-webkit-transition: all .5s
+		-moz-transition: all .5s
+		-ms-transition: all .5s
+		-o-transition: all .5s
+		transition: all .5s
 	.fullscreen_link:hover
 		text-decoration: underline
-		margin-left: 10px
-		-moz-transition: all .5s
+		padding-left: 30px
 .modal-box-content
 	position: relative
 .contact_box
