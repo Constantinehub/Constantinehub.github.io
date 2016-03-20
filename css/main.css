@@ -255,6 +255,10 @@ svg {
       -webkit-animation-duration: 2s;
       -moz-animation-duration: 2s;
       animation-duration: 2s; }
+    .top_mnu ul li:nth-child(5) a {
+      -webkit-animation-duration: 2.2s;
+      -moz-animation-duration: 2.2s;
+      animation-duration: 2.2s; }
     .top_mnu ul a {
       color: #fff;
       display: block;
@@ -311,7 +315,8 @@ svg {
   font-size: 13px;
   font-weight: 300; }
   .main_footer p {
-    display: inline-block; }
+    display: inline-block;
+    font-family: "RobotoBold"; }
   .main_footer .social_wrap {
     float: right; }
   .main_footer ul {
@@ -343,6 +348,17 @@ svg {
   display: inline-block;
   font-size: 20px;
   padding: 0 3px; }
+
+.link_pointer {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  color: red;
+  position: absolute;
+  padding: 3px 10px;
+  font-size: 20px; }
 
 .resume_container .left {
   text-align: right;
@@ -379,7 +395,8 @@ svg {
     margin-bottom: 15px;
     display: inline-block;
     font-weight: 600;
-    font-style: italic; }
+    font-style: italic;
+    font-family: "RobotoBold"; }
   .resume_item strong {
     text-transform: uppercase;
     font-style: normal;
@@ -505,7 +522,7 @@ svg {
   .contact_box .contact_icon {
     font-size: 35px; }
 
-.main_form button {
+.main_form .send_form {
   line-height: 40px;
   padding: 0 20px;
   border: none;

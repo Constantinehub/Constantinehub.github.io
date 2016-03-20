@@ -251,6 +251,8 @@ $h: 3px
 				+animation-duration(1.5s)
 			&:nth-child(4) a
 				+animation-duration(2s)
+			&:nth-child(5) a
+				+animation-duration(2.2s)
 		a
 			color: #fff
 			display: block
@@ -302,6 +304,7 @@ $h: 3px
 	font-weight: 300
 	p
 		display: inline-block
+		font-family: "RobotoBold"
 	.social_wrap
 		float: right
 	ul
@@ -334,6 +337,13 @@ $h: 3px
 		display: inline-block
 		font-size: 20px
 		padding: 0 3px
+
+.link_pointer
+	+transform(rotate(90deg))
+	color: red
+	position: absolute
+	padding: 3px 10px
+	font-size: 20px
 
 .resume_container
 	.left
@@ -370,6 +380,7 @@ $h: 3px
 		display: inline-block
 		font-weight: 600
 		font-style: italic
+		font-family: "RobotoBold"
 	strong
 		text-transform: uppercase
 		font-style: normal
@@ -491,7 +502,7 @@ $h: 3px
 	.contact_icon
 		font-size: 35px
 .main_form
-	button
+	.send_form
 		line-height: 40px
 		padding: 0 20px
 		border: none

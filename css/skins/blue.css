@@ -30,9 +30,6 @@ body .main_footer,
   .bg_dark a {
     color: #fff; }
 
-svg path {
-  fill: #888; }
-
 .toggle_mnu {
   background-color: #222; }
 
@@ -101,7 +98,7 @@ section h3 {
 .contact_icon {
   color: #3FC2FC; }
 
-.main_form button {
+.main_form .send_form {
   background-color: #3FC2FC;
   color: #fff;
   letter-spacing: 2px; }
