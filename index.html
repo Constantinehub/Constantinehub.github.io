@@ -15,6 +15,7 @@
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/skins/blue.css" />
 	<link rel="stylesheet" href="css/media.css" />
+	<script src="js/ajaxform.js"></script>
 </head>
 <body>
 
@@ -542,13 +543,11 @@
 						<i class="contact_icon icon-basic-world"></i>
 						<h4>Web-site:</h4>
 						<a href="https://constantinehub.github.io" target="_blank">constantinehub.github.io</a>
+						<a href="test_form/">Likn on the test form</a>
 					</div>
 				</div>
 				<div class="col-md-6 col-sm-6">
-				<div class="messageResult hidden">
-					Оставьте ваши контактные данные.
-				</div>
-					<form action="" method="POST" class="main_form" target="_blank" id="feedback_form" novalidate>
+					<form action="form.php" method="POST" class="main_form" target="_blank" id="feedback_form" novalidate>
 						<label class="form-group">
 							<span class="color_element">* </span>Ваше имя:
 							<input type="text" name="name" placeholder="Entered your name" data-validation-required-message="Это поле является обязательным" required>
