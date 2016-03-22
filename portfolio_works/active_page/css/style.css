@@ -274,6 +274,39 @@ h5.title {
 	line-height: 21px;
 }
 
+.client-slider, #slider, .slide {
+	height: 300px;
+	width: 100%;
+}
+
+#slider, .slide img {
+	background-size: cover;
+}
+
+.wrap_slide_info {
+	height: 100%;
+	background: #5C3248;
+}
+.wrap_slide_info p {
+	font-family: "Cardo-Italic";
+	font-style: italic;
+	font-size: 26px;
+	line-height: 32px;
+	padding: 50px 80px 0 50px;
+	color: #fff;
+}
+
+.owl-pagination {
+	display: block;
+	position: absolute;
+	top: 190px;
+	right: 370px;
+}
+
+
+
+
+
 .social-link {
 	margin-top: 40px;
 }
