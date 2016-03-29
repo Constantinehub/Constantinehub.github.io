@@ -486,7 +486,7 @@ svg {
   .port_descr h3 {
     margin-bottom: 0;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: bold;
     margin-top: 20px; }
   .port_descr .fullscreen_link {
     background: #3FC2FC none repeat scroll 0 0;
