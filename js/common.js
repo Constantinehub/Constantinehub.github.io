@@ -33,9 +33,11 @@ $(document).ready(function() {
 	$(".left .resume_item").animated("fadeInLeft", "fadeOutLeft");
 	$(".right .resume_item").animated("fadeInRight", "fadeOutRight");
 	$(".left h3").animated("fadeInLeft", "fadeOutLeft");
-	$(".left .resume_icon").animated("fadeInLeftBig", "fadeOutLeftBig");
+	$(".left .resume_icon").animated("fadeInLeft", "fadeOutLeft");
 	$(".right h3").animated("fadeInRight", "fadeOutRight");
-	$(".right .resume_icon").animated("fadeInRightBig", "fadeOutRightBig");
+	$(".right .resume_icon").animated("fadeInRight", "fadeOutRight");
+
+	$(".contact_box").animated("flipInX", "flipOutX");
 
 
 

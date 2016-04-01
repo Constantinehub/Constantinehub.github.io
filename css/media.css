@@ -38,6 +38,9 @@
 	.main_footer .social_wrap {
 		float: left;
 	}
+	.contact_box {
+		width: 100%;
+	}
 }
 
 /* Custom, iPhone Retina */

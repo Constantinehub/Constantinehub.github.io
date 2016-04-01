@@ -59,7 +59,8 @@ section {
     text-transform: uppercase;
     font-size: 12px;
     position: relative;
-    margin-bottom: 130px; }
+    margin-bottom: 130px;
+    z-index: 100; }
     .s_descr_wrap .s_descr::after {
       content: "";
       height: 1px;
@@ -509,18 +510,37 @@ svg {
 .modal-box-content {
   position: relative; }
 
+.blur_bg {
+  background: url(../img/contact_background.jpg) no-repeat;
+  background-size: cover;
+}
+
 .contact_box {
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  background: rgba(255,255,255,.3);
+  text-align: center;
+  padding: 10px 0;
+  width: 500px; }
   .contact_box h4 {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: normal;
     margin-bottom: 0;
-    margin-top: 10px; }
+    margin-top: 10px;
+    color: #444; }
   .contact_box p {
-    margin-top: 5px; }
+    margin-top: 5px;
+    color: #444;
+    font-weight: 600 }
   .contact_box .contact_icon {
     font-size: 35px; }
+  .contact_box a {
+    color: #444;
+    margin: 5px 0 15px 0;
+    display: inline-block;
+    font-weight: 600 }
+  .contact_box a:hover {
+    text-decoration: underline; }
 
 .main_form .send_form {
   line-height: 40px;
