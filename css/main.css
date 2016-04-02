@@ -281,8 +281,7 @@ svg {
     .top_wrapper .top_descr .top_centered {
       display: table-cell;
       text-align: center;
-      vertical-align: middle;
-      background-color: rgba(0, 0, 0, 0.4); }
+      vertical-align: middle; }
   .top_wrapper .top_text {
     display: inline-block; }
     .top_wrapper .top_text p {
@@ -331,7 +330,9 @@ svg {
     max-width: 220px;
     display: inline-block;
     border-radius: 50%; }
-
+.s_about {
+  padding-top: 120px;
+}
 .s_about p {
   margin-bottom: 25px;
   line-height: 16px; }
@@ -510,9 +511,13 @@ svg {
 .modal-box-content {
   position: relative; }
 
+.s_contacts {
+  background-color: transparent;
+  
+}
+
 .blur_bg {
-  background: url(../img/contact_background.jpg) no-repeat;
-  background-size: cover;
+  position: relative;
 }
 
 .contact_box {

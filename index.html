@@ -515,7 +515,7 @@
 	</div>
 </section>
 
-<section id="contacts" class="s_contacts bg_light blur_bg">
+<section id="contacts" class="s_contacts blur_bg" data-parallax="scroll" data-image-src="img/contact_background.jpg" data-z-index="-1">
 	<div class="section_header">
 		<h2>Контакты</h2>
 		<div class="s_descr_wrap">
@@ -526,7 +526,6 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
-					<div class="blur"></div>
 					<div class="contact_box">
 						<i class="contact_icon icon-basic-geolocalize-01"></i>
 						<h4>Адрес:</h4>
@@ -543,26 +542,6 @@
 						<a href="https://constantinehub.github.io" target="_blank">constantinehub.github.io</a>
 					</div>
 				</div>
-				<!-- <div class="col-md-6 col-sm-6">
-					<form action="form.php" method="POST" class="main_form" target="_blank" id="feedback_form" novalidate>
-						<label class="form-group">
-							<span class="color_element">* </span>Ваше имя:
-							<input type="text" name="name" placeholder="Entered your name" data-validation-required-message="Это поле является обязательным" required>
-							<span class="help-block text-danger"></span>
-						</label>
-						<label class="form-group">
-							<span class="color_element">* </span>Ваш E-mail:
-							<input type="text" name="email" placeholder="Entered your E-mail" data-validation-required-message="Это поле является обязательным" data-validation-email-message="Не корректно введено E-mail" required>
-							<span class="help-block text-danger"></span>
-						</label>
-						<label class="form-group">
-							Ваше сообщение:
-							<textarea name="message" placeholder="Entered your coment" data-validation-required-message="Вы не ввели сообщение" required></textarea>
-							<span class="help-block text-danger"></span>
-						</label>
-						<input class="send_form" type="submit" value="Отправить" onclick="AjaxFormRequest('messegeResult', 'feedback_form', 'form.php')">
-					</form>
-				</div> -->
 			</div>
 		</div>
 	</div>
@@ -601,6 +580,8 @@
 <script src="libs/scroll2id/PageScroll2id.min.js"></script>
 <script src="libs/waypoints/waypoints.min.js"></script>
 <script src="libs/animate/animate-css.js"></script>
+<script src="libs/jquery-transit/jquery.transit.js"></script>
+<script src="libs/smooth_scroll/plugins-scroll.js"></script>
 <script src="js/common.js"></script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
