@@ -508,6 +508,12 @@ svg {
     text-decoration: underline;
     padding-left: 30px; }
 
+.possible_portfolio_item {
+  background: url(../img/portfolio-images/work.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
 .modal-box-content {
   position: relative; }
 
