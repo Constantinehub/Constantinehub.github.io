@@ -1,390 +1,587 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
-
+<html>
 <head>
-
-	<meta charset="utf-8">
-
-	<title>Home</title>
-
-	<!-- Contend for SEO -->
-	<meta name="description" content="">
-
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<meta property="og:image" content="path/to/image.jpg">
-
-	<link rel="shortcut icon" href="" type="image/x-icon">
-	<link rel="apple-touch-icon" href="">
-	<link rel="apple-touch-icon" sizes="72x72" href="">
-	<link rel="apple-touch-icon" sizes="114x114" href="">
-	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/owl.carousel.css">
-
-	<!-- Load CSS, CSS Localstorage & WebFonts Main Function -->
-	<script>
-		!function(e){"use strict";function t(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function n(t,n){return e.localStorage&&localStorage[t+"_content"]&&localStorage[t+"_file"]===n}function a(t,a){if(e.localStorage&&e.XMLHttpRequest)n(t,a)?o(localStorage[t+"_content"]):l(t,a);else{var s=r.createElement("link");s.href=a,s.id=t,s.rel="stylesheet",s.type="text/css",r.getElementsByTagName("head")[0].appendChild(s),r.cookie=t}}function l(e,t){var n=new XMLHttpRequest;n.open("GET",t,!0),n.onreadystatechange=function(){4===n.readyState&&200===n.status&&(o(n.responseText),localStorage[e+"_content"]=n.responseText,localStorage[e+"_file"]=t)},n.send()}function o(e){var t=r.createElement("style");t.setAttribute("type","text/css"),r.getElementsByTagName("head")[0].appendChild(t),t.styleSheet?t.styleSheet.cssText=e:t.innerHTML=e}var r=e.document;e.loadCSS=function(e,t,n){var a,l=r.createElement("link");if(t)a=t;else{var o;o=r.querySelectorAll?r.querySelectorAll("style,link[rel=stylesheet],script"):(r.body||r.getElementsByTagName("head")[0]).childNodes,a=o[o.length-1]}var s=r.styleSheets;l.rel="stylesheet",l.href=e,l.media="only x",a.parentNode.insertBefore(l,t?a:a.nextSibling);var c=function(e){for(var t=l.href,n=s.length;n--;)if(s[n].href===t)return e();setTimeout(function(){c(e)})};return l.onloadcssdefined=c,c(function(){l.media=n||"all"}),l},e.loadLocalStorageCSS=function(l,o){n(l,o)||r.cookie.indexOf(l)>-1?a(l,o):t(e,"load",function(){a(l,o)})}}(this);
-	</script>
-
-	<!-- Load CSS Start -->
-	<script>loadCSS( "css/header.min.css?ver=1.0.0", false, "all" );</script>
-	<script>loadCSS( "css/main.min.css?ver=1.0.0", false, "all" );</script>
-	<!-- Load CSS End -->
-
-	<!-- Load CSS Compiled without JS -->
-	<noscript>
-		<link rel="stylesheet" href="css/fonts.min.css">
-		<link rel="stylesheet" href="css/main.min.css">
-		<link rel="stylesheet" href="css/menu.css">
-	</noscript>
-
+	<meta charset="utf-8" />
+	<title>Constantine</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="img/favicon.ico" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.min.css" />
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="libs/linea/styles.css" />
+	<link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
+	<link rel="stylesheet" href="libs/animate/animate.min.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/skins/blue.css" />
+	<link rel="stylesheet" href="css/media.css" />
+	<script src="js/ajaxform.js"></script>
 </head>
-
 <body>
 
+<div class="loader">
+	<div class="loader_inner"></div>
+</div>
 
-
-	<div class="wrapper">
-		<div class="header">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="container blocks_menu">
-							<a href="#" id="touch_menu">Head Menu:</a>
-							<nav>
-								<ul class="navigation clearfix right">
-									<li><a href="about-cse.html">About cse</a></li>
-									<li><a href="contact.html">Contact</a></li>
-									<li><a href="support.html">Support</a></li>
-									<li><a href="login.html">CSE toolbox login</a></li>
-								</ul>
-							</nav>
-						</div>
-					</div>
+<header id="header" class="main_head bg_dark" data-parallax="scroll" data-image-src="img/bg.jpg" data-z-index="1">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="logo_container">
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 552.756 464.882">
+					<g>
+						<g>
+							<path fill="#D80533" d="M230.89,404.293c69.535,28.425,161.633,24.976,194.487,10.11c13.84-6.954,15.617-7.848,25.461-14.06
+								c6.265-4.345,14.458-10.278,20.522-15.03C431.477,415.657,296.242,422.426,230.89,404.293z"/>
+							<path fill="#D80533" d="M471.513,385.204c0.047-0.036,0.103-0.09,0.152-0.127c-0.098,0.078-0.207,0.161-0.305,0.236
+								C471.409,385.276,471.464,385.24,471.513,385.204z"/>
+							<path fill="#D80533" d="M525.06,310.065c-52.25,42.696-242.821,52.889-341.655,29.04c109.599,53.888,298.743,43.208,325.993,5.419
+								c4.195-6.369,9.715-14.923,13.527-21.532c3.643-7.302,8.357-17.117,11.527-24.637C532.47,302.048,530.599,305.535,525.06,310.065z
+								"/>
+							<path fill="#D80533" d="M547.058,189.978c0.025,1.06,0.193,2.478,0.09,3.533c-5.387,54.314-245.468,78.714-377.542,50.323
+								c123.311,70.044,371.724,49.446,378.134,1.252c0.551-7.344,1.297-17.144,1.432-24.508
+								C548.819,211.383,548.062,199.124,547.058,189.978z"/>
+							<path fill="#D80533" d="M533.733,141.52c-0.145-1.198-0.738-2.716-1.055-3.879c-9.309-20.037-9.309-20.037-15.287-29.746
+								c-3.32-4.949-7.662-11.61-11.207-16.399c1.887,3.109,3.836,6.322,3.436,10.554c-4.223,44.762-201.966,65.179-315.32,42.46
+								C292.887,207.082,539.987,192.874,533.733,141.52z"/>
+							<path fill="#D80533" d="M150.083,112.33c0.149-0.3,0.34-0.707,0.495-1.003l1.042-1.85l-0.833,1.39
+								C150.575,111.305,150.294,111.89,150.083,112.33z"/>
+							<path fill="#D80533" d="M475.536,63.377c-0.105-1.223-0.658-2.801-1.16-3.918c-2.623-3.804-2.897-4.2-6.32-7.034
+								c-15.02-11.107-16.246-12.013-27.44-18.517c-5.923-3.143-13.746-7.042-20.123-10.02c3.729,1.751,7.421,3.653,10.113,6.39
+								c18.908,19.21-40.962,38.607-118.631,38.434c-8.896-0.019-35.968-0.078-62.53-4.532C303.65,109.814,478.532,98.095,475.536,63.377
+								z"/>
+							<path fill="#D80533" d="M420.493,23.889c-0.552-0.262-1.108-0.518-1.661-0.775C419.369,23.36,419.934,23.627,420.493,23.889z"/>
+							<path fill="#D80533" d="M230.833,33.131c-2.636,1.477-5.421,3.042-7.662,4.41c-3.434,2.431-5.159,3.651-5.09,6.929
+								c0.127-0.189,0.29-0.445,0.423-0.631C219.599,42.313,222.644,38.077,230.833,33.131z"/>
+							<path fill="#D80533" d="M230.833,33.131c1.395-0.78,2.751-1.536,3.958-2.223C233.353,31.66,232.04,32.403,230.833,33.131z"/>
+							<path fill="#D80533" d="M314.186,14.69c8.381-3.206,20.141-3.011,22.217-1.083c-0.031,0.143-0.075,0.337-0.106,0.48
+								c-0.27,0.15-0.647,0.316-0.94,0.401c0.065,0.114,0.152,0.267,0.217,0.381c-3.223,3.845-8.932-0.213-12.103,3.801
+								c-2.017,2.55,2.163,4.75,4.41,5.932c5.341,2.811,19.534,5.125,34.039,4.132c6.073-0.414,25.727-2.399,23.706-10.495
+								c-10.388-15.704-76.87-13.595-76.313-6.133C309.416,13.519,313.143,15.089,314.186,14.69z"/>
+						</g>
+						<g>
+							<path fill="#2113AA" d="M323.043,62.918c-69.535-28.426-161.632-24.976-194.486-10.11c-13.841,6.954-15.619,7.848-25.461,14.059
+								c-6.27,4.347-14.472,10.288-20.536,15.041C122.423,51.556,257.683,44.782,323.043,62.918z"/>
+							<path fill="#2113AA" d="M82.422,82.007c-0.047,0.036-0.105,0.09-0.153,0.126c0.093-0.074,0.196-0.152,0.291-0.225
+								C82.515,81.941,82.466,81.973,82.422,82.007z"/>
+							<path fill="#2113AA" d="M28.876,157.147c52.248-42.697,242.82-52.892,341.653-29.041c-109.6-53.889-298.743-43.208-325.992-5.42
+								c-4.196,6.369-9.716,14.924-13.527,21.532c-3.644,7.302-8.358,17.117-11.528,24.637C21.464,165.163,23.336,161.676,28.876,157.147
+								z"/>
+							<path fill="#2113AA" d="M6.197,222.125c-0.552,7.345-1.299,17.145-1.434,24.508c0.354,9.195,1.108,21.454,2.115,30.601
+								c-0.028-1.06-0.195-2.478-0.09-3.532c5.386-54.314,245.466-78.715,377.539-50.324C261.017,153.331,12.607,173.932,6.197,222.125z"
+								/>
+							<path fill="#2113AA" d="M20.201,325.691c0.146,1.198,0.738,2.716,1.055,3.879c9.309,20.038,9.309,20.038,15.287,29.746
+								c3.32,4.949,7.662,11.61,11.207,16.399c-1.886-3.109-3.835-6.322-3.437-10.554c4.224-44.762,201.966-65.179,315.32-42.46
+								C261.047,260.129,13.949,274.336,20.201,325.691z"/>
+							<path fill="#2113AA" d="M403.355,355.884l-1.041,1.85l0.832-1.389c0.213-0.439,0.492-1.023,0.705-1.464
+								C403.701,355.181,403.512,355.588,403.355,355.884z"/>
+							<path fill="#2113AA" d="M133.439,443.322c0.554,0.262,1.108,0.519,1.662,0.775C134.565,443.851,133.998,443.584,133.439,443.322z"
+								/>
+							<path fill="#2113AA" d="M78.397,403.834c0.105,1.223,0.658,2.801,1.16,3.918c2.623,3.804,2.897,4.2,6.32,7.034
+								c15.02,11.106,16.247,12.013,27.44,18.517c5.923,3.143,13.748,7.04,20.122,10.02c-3.726-1.752-7.42-3.653-10.113-6.39
+								c-18.907-19.21,40.963-38.607,118.631-38.434c8.896,0.018,35.969,0.078,62.53,4.532
+								C250.282,357.396,75.401,369.115,78.397,403.834z"/>
+							<path fill="#2113AA" d="M239.749,452.521c-8.379,3.205-20.142,3.01-22.217,1.082c0.032-0.143,0.075-0.336,0.107-0.479
+								c0.269-0.15,0.646-0.315,0.941-0.402c-0.066-0.114-0.154-0.266-0.219-0.38c3.224-3.846,8.932,0.212,12.104-3.802
+								c2.016-2.55-2.164-4.75-4.41-5.932c-5.341-2.811-19.535-5.125-34.041-4.132c-6.072,0.414-25.727,2.398-23.706,10.494
+								c10.387,15.705,76.87,13.595,76.315,6.133C244.518,453.692,240.793,452.121,239.749,452.521z"/>
+						</g>
+						<g>
+							<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="300.4464" y1="420.4793" x2="390.4702" y2="420.4793">
+								<stop  offset="0" style="stop-color:#FFEF26"/>
+								<stop  offset="0.0178" style="stop-color:#FFEA21"/>
+								<stop  offset="0.102" style="stop-color:#FED70F"/>
+								<stop  offset="0.1886" style="stop-color:#FDCC04"/>
+								<stop  offset="0.2809" style="stop-color:#FDC800"/>
+								<stop  offset="0.6685" style="stop-color:#F18F34"/>
+								<stop  offset="0.8876" style="stop-color:#E95F32"/>
+								<stop  offset="1" style="stop-color:#E3312D"/>
+							</linearGradient>
+							<path fill="url(#SVGID_1_)" d="M369.008,408.438c-32.313-5.553-75.318,3.056-67.666,13.544c0.044,0.06,0.111,0.129,0.152,0.191
+								c0.28-0.055,28.373-4.846,36.419,3.63c0.022,0.006,2.37,0.473,3.026,1.75c-1.562,3.261-15.824,5.666-38.535,1.699
+								c14.904,8.186,70.944,6.268,85.25-5.26C395.093,417.997,387.426,411.603,369.008,408.438z"/>
+							<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="208.4385" y1="376.2606" x2="479.0504" y2="376.2606">
+								<stop  offset="0" style="stop-color:#FFEF26"/>
+								<stop  offset="0.0178" style="stop-color:#FFEA21"/>
+								<stop  offset="0.102" style="stop-color:#FED70F"/>
+								<stop  offset="0.1886" style="stop-color:#FDCC04"/>
+								<stop  offset="0.2809" style="stop-color:#FDC800"/>
+								<stop  offset="0.6685" style="stop-color:#F18F34"/>
+								<stop  offset="0.8876" style="stop-color:#E95F32"/>
+								<stop  offset="1" style="stop-color:#E3312D"/>
+							</linearGradient>
+							<path fill="url(#SVGID_2_)" d="M208.542,380.178c-0.042,0.205-0.057,0.487-0.104,0.694
+								c39.082-24.263,205.513-17.863,228.48,15.857c5.488,9.064-6.014,14.882-11.541,17.675c10.379-4.964,11.518-5.651,25.461-14.06
+								c6.399-4.363,14.7-10.525,20.827-15.267c3.781-3.478,11.652-10.717,4.463-20.13C442.79,321.313,217.719,334.123,208.542,380.178z"
+								/>
+							<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="144.5586" y1="293.7589" x2="535.5094" y2="293.7589">
+								<stop  offset="0" style="stop-color:#FFEF26"/>
+								<stop  offset="0.0178" style="stop-color:#FFEA21"/>
+								<stop  offset="0.102" style="stop-color:#FED70F"/>
+								<stop  offset="0.1886" style="stop-color:#FDCC04"/>
+								<stop  offset="0.2809" style="stop-color:#FDC800"/>
+								<stop  offset="0.6685" style="stop-color:#F18F34"/>
+								<stop  offset="0.8876" style="stop-color:#E95F32"/>
+								<stop  offset="1" style="stop-color:#E3312D"/>
+							</linearGradient>
+							<path fill="url(#SVGID_3_)" d="M144.875,303.776c-0.109,0.308-0.201,0.736-0.316,1.042
+								c39.674-35.799,324.149-37.244,365.78,24.169c3.578,6.626,2.031,10.29-0.941,15.537c4.299-6.299,9.607-14.987,13.527-21.532
+								c3.744-7.25,8.254-17.161,11.527-24.637c1.518-3.949,1.396-8.419-0.332-12.261C503.972,219.061,169.293,234.262,144.875,303.776z"
+								/>
+							<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="122.5357" y1="191.7764" x2="549.1709" y2="191.7764">
+								<stop  offset="0" style="stop-color:#FFEF26"/>
+								<stop  offset="0.0178" style="stop-color:#FFEA21"/>
+								<stop  offset="0.102" style="stop-color:#FED70F"/>
+								<stop  offset="0.1886" style="stop-color:#FDCC04"/>
+								<stop  offset="0.2809" style="stop-color:#FDC800"/>
+								<stop  offset="0.6685" style="stop-color:#F18F34"/>
+								<stop  offset="0.8876" style="stop-color:#E95F32"/>
+								<stop  offset="1" style="stop-color:#E3312D"/>
+							</linearGradient>
+							<path fill="url(#SVGID_4_)" d="M547.058,189.978c-0.213-1.431-0.781-3.299-1.365-4.619
+								c-27.326-61.629-383.129-69.891-422.696,20.125c-0.153,0.345-0.302,0.829-0.46,1.171c38.811-47.199,375.766-40.461,423.016,28.719
+								c1.984,3.748,2,4.196,2.188,9.713c0.725-7.331,1.121-17.15,1.432-24.508C548.907,211.38,547.978,199.134,547.058,189.978z"/>
+							<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="150.7867" y1="97.0631" x2="532.6787" y2="97.0631">
+								<stop  offset="0" style="stop-color:#FFEF26"/>
+								<stop  offset="0.0178" style="stop-color:#FFEA21"/>
+								<stop  offset="0.102" style="stop-color:#FED70F"/>
+								<stop  offset="0.1886" style="stop-color:#FDCC04"/>
+								<stop  offset="0.2809" style="stop-color:#FDC800"/>
+								<stop  offset="0.6685" style="stop-color:#F18F34"/>
+								<stop  offset="0.8876" style="stop-color:#E95F32"/>
+								<stop  offset="1" style="stop-color:#E3312D"/>
+							</linearGradient>
+							<path fill="url(#SVGID_5_)" d="M531.88,135.987l0.799,1.653c-4.43-10.549-4.633-10.909-15.287-29.746
+								c-3.174-5.043-7.803-11.51-11.207-16.399C460.55,41.274,201.374,43.218,151.62,109.478l-0.833,1.39
+								C175.715,69.668,488.399,72.779,531.88,135.987z"/>
+							<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="223.1714" y1="32.077" x2="468.0557" y2="32.077">
+								<stop  offset="0" style="stop-color:#FFEF26"/>
+								<stop  offset="0.0178" style="stop-color:#FFEA21"/>
+								<stop  offset="0.102" style="stop-color:#FED70F"/>
+								<stop  offset="0.1886" style="stop-color:#FDCC04"/>
+								<stop  offset="0.2809" style="stop-color:#FDC800"/>
+								<stop  offset="0.6685" style="stop-color:#F18F34"/>
+								<stop  offset="0.8876" style="stop-color:#E95F32"/>
+								<stop  offset="1" style="stop-color:#E3312D"/>
+							</linearGradient>
+							<path fill="url(#SVGID_6_)" d="M468.056,52.425c-10.344-8.038-11.963-9.029-27.44-18.517c-6.442-3.42-15.157-7.743-21.784-10.795
+								C383.523,8.35,288.588,5.046,234.791,30.908c-3.581,1.813-8.137,4.634-11.62,6.633C258.969,16.079,417.154,16.918,468.056,52.425z
+								"/>
+						</g>
+						<g>
+							<linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="163.4636" y1="46.7314" x2="253.4868" y2="46.7314">
+								<stop  offset="0" style="stop-color:#2581C4"/>
+								<stop  offset="1" style="stop-color:#2581C4;stop-opacity:0"/>
+							</linearGradient>
+							<path fill="url(#SVGID_7_)" d="M184.924,58.772c32.314,5.552,75.318-3.056,67.668-13.544c-0.043-0.06-0.111-0.132-0.154-0.191
+								c-0.28,0.054-28.371,4.846-36.417-3.632c-0.023-0.004-2.37-0.471-3.027-1.748c1.564-3.261,15.825-5.666,38.534-1.699
+								c-14.903-8.186-70.943-6.268-85.249,5.26C158.841,49.212,166.508,55.608,184.924,58.772z"/>
+							<linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="74.8831" y1="90.9503" x2="345.4942" y2="90.9503">
+								<stop  offset="0" style="stop-color:#2581C4"/>
+								<stop  offset="1" style="stop-color:#2581C4;stop-opacity:0"/>
+							</linearGradient>
+							<path fill="url(#SVGID_8_)" d="M345.391,87.033c0.041-0.206,0.057-0.488,0.104-0.694
+								c-39.082,24.263-205.512,17.863-228.479-15.858c-5.487-9.063,6.014-14.88,11.541-17.673c-10.379,4.964-11.519,5.651-25.461,14.059
+								c-6.401,4.363-14.699,10.525-20.827,15.266c-3.782,3.479-11.653,10.718-4.462,20.13
+								C111.143,145.898,336.215,133.088,345.391,87.033z"/>
+							<linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="18.4251" y1="173.4521" x2="409.375" y2="173.4521">
+								<stop  offset="0" style="stop-color:#2581C4"/>
+								<stop  offset="1" style="stop-color:#2581C4;stop-opacity:0"/>
+							</linearGradient>
+							<path fill="url(#SVGID_9_)" d="M409.059,163.435c0.109-0.307,0.199-0.734,0.316-1.04c-39.675,35.797-324.152,37.242-365.778-24.17
+								c-3.58-6.626-2.032-10.291,0.941-15.538c-4.3,6.301-9.609,14.987-13.527,21.532c-3.743,7.251-8.255,17.161-11.528,24.637
+								c-1.518,3.949-1.397,8.419,0.331,12.261C49.961,248.15,384.641,232.949,409.059,163.435z"/>
+							<linearGradient id="SVGID_10_" gradientUnits="userSpaceOnUse" x1="4.7627" y1="275.4346" x2="431.3965" y2="275.4346">
+								<stop  offset="0" style="stop-color:#2581C4"/>
+								<stop  offset="1" style="stop-color:#2581C4;stop-opacity:0"/>
+							</linearGradient>
+							<path fill="url(#SVGID_10_)" d="M8.384,231.838c-1.985-3.747-2-4.196-2.187-9.713c-0.727,7.331-1.123,17.151-1.434,24.508
+								c0.266,9.197,1.196,21.445,2.115,30.601c0.212,1.431,0.78,3.299,1.365,4.619c27.325,61.629,383.126,69.891,422.694-20.125
+								c0.154-0.344,0.301-0.829,0.459-1.171C392.588,307.756,55.631,301.018,8.384,231.838z"/>
+							<linearGradient id="SVGID_11_" gradientUnits="userSpaceOnUse" x1="21.2564" y1="370.1478" x2="403.1465" y2="370.1478">
+								<stop  offset="0" style="stop-color:#2581C4"/>
+								<stop  offset="1" style="stop-color:#2581C4;stop-opacity:0"/>
+							</linearGradient>
+							<path fill="url(#SVGID_11_)" d="M22.052,331.225l-0.796-1.654c4.429,10.549,4.632,10.909,15.287,29.746
+								c3.174,5.043,7.803,11.51,11.207,16.399c45.635,50.221,304.811,48.277,354.564-17.982l0.832-1.389
+								C378.217,397.543,65.534,394.432,22.052,331.225z"/>
+							<linearGradient id="SVGID_12_" gradientUnits="userSpaceOnUse" x1="85.877" y1="435.134" x2="330.7618" y2="435.134">
+								<stop  offset="0" style="stop-color:#2581C4"/>
+								<stop  offset="1" style="stop-color:#2581C4;stop-opacity:0"/>
+							</linearGradient>
+							<path fill="url(#SVGID_12_)" d="M85.877,414.786c10.345,8.038,11.963,9.027,27.44,18.517c6.441,3.421,15.158,7.743,21.784,10.795
+								c35.308,14.764,130.245,18.067,184.042-7.795c3.581-1.813,8.137-4.635,11.619-6.633
+								C294.965,451.132,136.779,450.293,85.877,414.786z"/>
+						</g>
+					</g>
+					</svg>
 				</div>
+				<button class="toggle_mnu">
+					<span class="sandwich">
+						<span class="sw-topper"></span>
+						<span class="sw-bottom"></span>
+						<span class="sw-footer"></span>
+					</span>
+				</button>
+				<nav class="top_mnu">
+					<ul>
+						<li><a href="#header">Home</a></li>
+						<li><a href="#about">About me</a></li>
+						<li><a href="#resume">Resume</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#contacts">Contacts</a></li>
+					</ul>
+				</nav>
 			</div>
-		</div>
-		<div class="head">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-md-6 responsive_block">
-						<div class="logo_section">
-							<a href="/"><img src="img/logotip.png" alt=""></a>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="link_section">
-							<a href="http://unconventionalwisdom.libsyn.com" target="_blank">Radio schedule &amp; archive</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="main_mnu">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<ul class="nav navbar-nav">
-								<li class="active"><a class="hoveffect" href="index.html">home</a></li>
-								<li class="dropdown">
-									<a href="strategies.html" class="dropdown-toggle" data-toggle="dropdown">strategies<b class="caret"></b>
-									</a>
-									<ul class="dropdown-menu" role="menu">
-										<li><a href="strategies-covered-calls.html">Covered Calls</a></li>
-										<li><a href="strategies-weekly-credit-spreads.html">Weekly Credit Spreads</a></li>
-										<li><a href="strategies-strangle-straddle-hold.html">Strangle/Straddle/Hold (SSH)</a></li>
-										<li><a href="strategies-momentum-trading.html">Momentum Trading</a></li>
-										<li><a href="strategies-trade-the-moment.html">Trade the Moment</a></li>
-									</ul>
-								</li>
-								<li class="dropdown">
-									<a href="seminars.html" class="dropdown-toggle" data-toggle="dropdown">seminars<b class="caret"></b>
-									</a>
-									<ul class="dropdown-menu" role="menu">
-										<li><a href="seminars-2-day-covered-calls.html">2-Day Covered Calls Seminar</a></li>
-										<li><a href="seminars-2-day-credit-spread-ssh.html">2-Day Credit Spread/SSH Seminar</a></li>
-										<li><a href="seminars-2-day-advanced-charting.html">2-Day Advanced Charting Seminar</a></li>
-										<li><a href="seminars-1-day-trade-the-moment.html">1-Day Trade the Moment Seminar</a></li>
-									</ul>
-								</li>
-								<li class="dropdown">
-									<a href="services.html" class="dropdown-toggle" data-toggle="dropdown">
-										platinum services<b class="caret"></b>
-									</a>
-									<ul class="dropdown-menu" role="menu">
-										<li><a href="services-covered-calls-platinum.html">Covered Calls Platinum</a></li>
-										<li><a href="services-credit-spread-platinum.html">Credit Spread Platinum</a></li>
-										<li><a href="services-ssh-platinum.html">SSH Platinum</a></li>
-										<li><a href="services-advanced-charting-platinum.html">Advanced Charting Platinum</a></li>
-										<li><a href="services-trade-the-moment-platinum.html">Trade the Moment Platinum</a></li>
-									</ul>
-								</li>
-								<li class="dropdown">
-									<a href="tools.html" class="dropdown-toggle" data-toggle="dropdown">
-										tools<b class="caret"></b>
-									</a>
-									<ul class="dropdown-menu" role="menu">
-										<li><a href="tools-the-cse-toolbox.html">The CSE Toolbox</a></li>
-										<li><a href="tools-credit-spread-plug-in.html">Credit-Spread Plug-in</a></li>
-										<li><a href="tools-ssh-screener-plug-in.html">SSH Screener Plug-in</a></li>
-										<li><a href="tools-advanced-charting-plug-in.html">Advanced Charting Plug-in</a></li>
-										<li><a href="tools-intraday-charting-plug-in.html">Intraday Charting Plug-in</a></li>
-										<li><a href="tools-intraday-csm-plug-in.html">Intraday CSM Plug-in</a></li>										
-									</ul>
-								</li>
-								<li class="dropdown">
-									<a href="knowledgebase.html" class="dropdown-toggle" data-toggle="dropdown">
-										Knowledge Base<b class="caret"></b>
-									</a>
-									<ul class="dropdown-menu" role="menu">
-										<li><a href="knowledgebase-free-covered-calls-webinar.html">Free Covered Calls Webinar</a></li>
-										<li><a href="knowledgebase-covered-calls-leaps.html">Covered Calls &amp; LEAPS (Book)</a></li>
-										<li><a href="http://unconventionalwisdom.libsyn.com" target="_blank">Radio Show Schedule &amp; Archive</a></li>
-										<li><a href="knowledgebase-the-cow-report.html">The Cow Report</a></li>
-										<li><a href="knowledgebase-success-stories.html">Success Stories</a></li>
-										<li><a href="knowledgebase-additional-resources.html">Additional Resources</a></li>
-									</ul>
-								</li>
-							</ul>
-					</div>
-				</div>
-			</div>
-		</div>
 
-
-			
 		</div>
-		<div class="slider_main">
-			<div id="owl-example" class="owl-carousel">
-				<div class="slider-items">
-					<img src="img/01-slider-people-smarter.jpg" alt="">
-					<div class="slider-description">
-						<h1>Maximize Your Interests.</h1>
-						<p>CSE's Platinum Services offer personal guidance and advice from our investing experts.</p>
-						<a href="#">Learn more >> </a>
-					</div>
-				</div>
-				<div class="slider-items">
-					<img src="img/02-slider-graph-growth.jpg" alt="">
-					<div class="slider-description">
-						<h1>It's All About Growth.</h1>
-						<p>CSE's rule-based investment strategies have a proven track record, regardless of market conditions.</p>
-						<a href="#">Learn more >> </a>
-					</div>
-				</div>
-				<div class="slider-items">
-					<img src="img/03-slider-woman-right-balance.jpg" alt="">
-					<div class="slider-description">
-						<h1>Strike the Right Balance.</h1>
-						<p>The best investment strategy is the one that's best for you, your goals, and your experience level</p>
-						<a href="#">Learn more >> </a>
-					</div>
-				</div>
-				<div class="slider-items">
-					<img src="img/slider_img.png" alt="">
-					<div class="slider-description">
-						<h1>Invest smarter. Not Harder.</h1>
-						<p>Discover the power of proven, rules-based investing with our FREE COVERED CALLS SEMINAR!</p>
-						<a href="#">Learn more >> </a>
-					</div>
-				</div>
-			</div>
-		</div>
-
-
-
-
-		<div class="main_description">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="descr">
-							<h2>Discover how investors are learning to make consistent <br /> monthly cash income, regardless of market direction</h2>
-							<p>If you want to take control of your finances and manage your own investments, then Compound Stock Earnings (CSE) will teach you a clear, rules-based system for investing for consistent cash flow.</p>
-							<p>If you own stocks and you’re not selling Covered Calls, you’re leaving significant money on the table each month. Even if you don’t own stocks, CSE will teach you how to use Covered Calls to create consistent returns with as little as 4 hours of your time per month. Our weekly <a href="knowledgebase-free-covered-calls-webinar.html">FREE COVERED CALLS WEBINAR</a> will introduce you to the concept of Covered Calls, and show you how it’s possible to earn 3 - 6 % PER MONTH from a stock portfolio, regardless of market direction.</p>
-							<p>If you have more time and want to earn more income, then CSE provides a range of other <a href="strategies.html">STRATEGIES</a> to suit your needs.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="services">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4">
-						<div class="s_colum education">
-							<img src="img/img_1.png" alt="">
-							<h3>FINANCIAL EDUCATION</h3>
-							<p>Our investment seminars<br> are unmatched in the industry,<br> with free re-attends for life and<br> free trials of our proprietary tools!</p>
-							<a href="seminars.html">LEARN MORE</a>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="s_colum tools">
-							<img class="popravka" src="img/img_2.png" alt="">
-							<h3>INVESTING TOOLS</h3>
-							<p class="column_item_2">The CSE propriety toolbox<br> is designed to support CSE’s key<br> investing strategies while<br> maximizing market performance!</p>
-							<a id="clear_pad" href="tools.html">LEARN MORE</a>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="s_colum servis">
-							<img src="img/img_3.png" alt="">
-							<h3>PLATINUM SERVICES</h3>
-							<p class="column_item_3">Under the direction of<br> proven industry professionals,<br> platinum subscribers receive<br> personal advice and insights.</p>
-							<a href="services.html">LEARN MORE</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="news_section">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-md-6">
-						<div class="micro_news">
-							<h4>Tune in to Unconventional Wi$dom:<br><b>The CSE investment Show</b></h4>
-							<p>CSE founder Joseph Hooper hosts UNCONVENTIONAL WI$DOM: The CSE Investment Show, a weekly financial radio program. Tune in, and you'll hear how CSE clients are making returns between 3% and 6% per month, even those who had never bought a stock before becoming a CSE client!
-							<br><a href="http://unconventionalwisdom.libsyn.com" target="_blank">See the Radio Schedule & Visit the Archive of Shows. >></a></p>
-							<img class="micro" src="img/micro_2.png" alt="">
-						</div>
-					</div>
-					<div class="col-xs-12 col-md-6">
-						<div class="cow_news">
-						<div class="paper">
-							<h4>GET YOUR FREE  SUBSCRIPTION TO<br><b>THE COW REPORT</b></h4>
-							<img src="img/img_4.png" alt="">
-							<p>Each week, our experts sift through all the week's correspondence we've received from our clients across the world, and compile the most interesting questions, answers and comments into a weekly e-newsletter... The CSE Cow Report.<br><a href="knowledgebase-the-cow-report.html">Get your free 2-month subscription. >></a></p>
-						</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div class="section_text">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h5>Tap into the power and income potential of covered call <br> 
-						trading with a commitment of as little as 4 hours a month!</h5>
-						<p>Writing covered calls involves selling call options against your stock holdings. With this investing strategy, investors can gain consistent monthly income from their stock portfolios without selling the stocks, and regardless of market direction. If you're not selling covered calls, you're leaving significant sums of money on the table each month!</p>
-						<a href="strategies-covered-calls.html">Learn more >></a>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-
-		
-		<div class="section_text">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">	
-						<br />	
-						<p style="font-size: 10px; line-height: 14px; ">All information presented by Compound Stock Earnings LTD and/or Compound Stock Earnings Seminars LTD by its directors, employees and consultants in seminars, websites, literature, email or through any other medium provides general information only. All references to international and USA securities are made using historical data and are for educational purposes only.  No trading suggestions of any kind are made nor should be implied. In presenting the material, neither Compound Stock Earnings LTD and/or Compound Stock Earnings Seminars LTD nor its directors, employees or consultants has taken into consideration any individual's investment objectives, financial situation or particular needs. All recipients of general information furnished by Compound Stock Earnings LTD and/or Compound Stock Earnings Seminars LTD should seek independent professional advice as to the suitability of any investment strategy to their&nbsp;personal&nbsp;financial&nbsp;profile&nbsp;and&nbsp;goals.</p>
-						<br />
-						<p style="font-size: 10px; line-height: 14px; ">Compound Stock Earnings Seminars LTD should seek independent professional advice as to the suitability of any investment strategy to their personal financial profile and goals. <a href="legal-disclaimer.html">Read Full Disclaimer</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div class="footer">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-3 col-sm-6">
-						<ul>
-							<li><a href="strategies.html"><strong>STRATEGIES</strong></a></li>
-							<li><a href="strategies-covered-calls.html">Covered Calls</a></li>
-							<li><a href="strategies-weekly-credit-spreads.html">Weekly Credit Spreads</a></li>
-							<li><a href="strategies-strangle-straddle-hold.html">Strangle/Straddle/Hold (SSH)</a></li>
-							<li><a href="strategies-momentum-trading.html">Momentum Trading</a></li>
-							<li><a href="strategies-trade-the-moment.html">Trade the Moment</a></li>
-						</ul>								
-						<ul>
-							<li><a href="seminars.html"><strong>SEMINARS</strong></a></li>
-							<li><a href="seminars-2-day-covered-calls.html">2-Day Covered Calls Seminar</a></li>
-							<li><a href="seminars-2-day-credit-spread-ssh.html">2-Day Credit Spread/SSH Seminar</a></li>
-							<li><a href="seminars-2-day-advanced-charting.html">2-Day Advanced Charting Seminar</a></li>
-							<li><a href="seminars-1-day-trade-the-moment.html">1-Day Trade the Moment Seminar</a></li>
-						</ul>
-					</div>
-					<div class="col-md-3 col-sm-6">									
-						<ul>
-							<li><a href="services.html"><strong>PLATINUM SERVICES</strong></a></li>
-							<li><a href="services-covered-calls-platinum.html">Covered Calls Platinum</a></li>
-							<li><a href="services-credit-spread-platinum.html">Credit Spread Platinum</a></li>
-							<li><a href="services-ssh-platinum.html">SSH Platinum</a></li>
-							<li><a href="services-advanced-charting-platinum.html">Advanced Charting Platinum</a></li>
-							<li><a href="services-trade-the-moment-platinum.html">Trade the Moment Platinum</a></li>
-						</ul>
-						<ul>
-							<li><a href="tools.html"><strong>Tools</strong></a></li>
-								<li><a href="tools-the-cse-toolbox.html">THE CSE TOOLBOX</a></li>
-							<li><a href="tools-credit-spread-plug-in.html">Credit-Spread Plug-in</a></li>
-							<li><a href="tools-ssh-screener-plug-in.html">SSH Screener Plug-in</a></li>
-							<li><a href="tools-advanced-charting-plug-in.html">Advanced Charting Plug-in</a></li>
-							<li><a href="tools-intraday-charting-plug-in.html">Intraday Charting Plug-in</a></li>
-							<li><a href="tools-intraday-csm-plug-in.html">Intraday CSM Plug-in</a></li>										
-						</ul>
-					</div>
-					<div class="col-md-3 col-sm-6">	
-						<ul>
-							<li><a href="knowledgebase.html"><strong>KNOWLEDGEBASE</strong></a></li>
-							<li><a href="knowledgebase-free-covered-calls-webinar.html">Free Covered Calls Webinar</a></li>
-							<li><a href="knowledgebase-covered-calls-leaps.html">Covered Calls &amp; LEAPS (Book)</a></li>
-							<li><a href="http://unconventionalwisdom.libsyn.com" target="_blank">Radio Show Schedule &amp; Archive</a></li>
-							<li><a href="knowledgebase-the-cow-report.html">The Cow Report</a></li>
-							<li><a href="knowledgebase-success-stories.html">Success Stories</a></li>
-							<li><a href="knowledgebase-additional-resources.html">Additional Resources</a></li>
-						</ul>		
-						<ul>
-							<li><a href="login.html"><b>CSE TOOLBOX LOGIN</b></a></li>
-							<li><a href="what-are-covered-calls.html">What are Covered Calls?</a></li>
-							<li><a href="free-introductory-webinar.html">Free Introductory Webinar</a></li>
-							<li><a href="todays-stock-investor.html">Today's Stock Investor</a></li>
-							<li><a href="investing-strategies-risk-reward.html">Investing Strategies: Risk &amp; Reward</a></li>
-						</ul>
-					</div>
-					<div class="col-md-3 col-sm-6">
-						<p>Compound Stock Earnings<br> 222 W. Fourth St #301,<br> Fort Worth Texas 76102<br> Phone: 817-882-9142<br> Fax: 817-887-7708<br> Email: support@<br>	<b>compoundstockearnings.com</b></p>
-						<p>For administrative requests<br> please contact Support Team at:<br> Phone: 817-882-9142<br> Email: support@<br>	<b>compoundstockearnings.com</b></p>
-					</div>
-				</div>
-			</div>
-		</div>
-
 	</div>
+	<div class="top_wrapper">
+		<div class="top_descr">
+			<div class="top_centered">
+				<div class="top_text">
+					<h1>Constantine Shibaev</h1>
+					<p>Web-Дизайнер, Front-End разработчик</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
 
+<section id="about" class="s_about bg_light">
+	<div class="section_header">
+		<h2>Обо мне</h2>
+		<div class="s_descr_wrap">
+			<div class="s_descr">Познакомимся по ближе</div>
+		</div>
+	</div>
+	<div class="section_contant">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-md-push-4 animation_1">
+					<h3>Фото</h3>
+					<div class="person">
+						<a href="img/photo.jpg" class="popup"><img src="img/photo.jpg" alt="Constantine"></a>
+					</div>
+				</div>
+				<div class="col-md-4 col-md-pull-4 animation_2">
+					<h3>Немного о себе</h3>
+					<p>Меня зовет Константин Шибаев, и я занимаюсь Front-end разработкой в часности версткой веб страниц с использованием различных javascript плагинов и анимаций, и разнообразных форм и писем для рассылки.</p>
+					<p>Мне нравится эксперементировать со стилями и анимациями, хоть я и не учился на дизайнера но в своих проектах я часто использую стили на глаз (т.е. как бы мне хотелось это увидеть) и из всего этого получается очень эффектные образы.</p>
+				</div>
+				<div class="col-md-4 animation_3 personal_last_block">
+					<h3>Профессиональная информация</h3>
+					<h2 class="personal_header">Constantine Shibaev</h2>
+					<ul>
+						<li>Профессиональное создание сайтов: HTML верстка, написание JavaScript скриптов, посадка на CMS WordPress</li>
+						<li>День рождения 30 ноября 1990 года</li>
+						<li>Skype: the_best_of_i</li>
+						<li>Телефон: <b class="phone_text">+3 050-630-61-75</b></li>
+						<li>E-mail: <a href="mailto:HelloWorld@gmail.com">killtobanana@gmail.com</a></li>
+						<li>Web-Site: <a href="https://constantinehub.github.io" target="_blank">Constantinehub.github.io</a></li>
+						<li>Аккаунты в соц сетях: <i class="fa fa-share link_pointer"></i></li>
+					</ul>
+					<div class="social_wrap">
+						<ul>
+							<li><a href="https://vk.com/id12080945" target="_blank"><i class="fa fa-vk"></i></a></li>
+							<li><a href="https://www.facebook.com/Breathe.now.rise" target="_blank"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://github.com/Constantinehub" target="_blank"><i class="fa fa-github"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
+<section id="resume" class="s_resume">
+	<div class="section_header">
+		<h2>Резюме</h2>
+		<div class="s_descr_wrap">
+			<div class="s_descr">Мои знания и умения</div>
+		</div>
+	</div>
+	<div class="section_content">
+		<div class="container">
+			<div class="row">
+				<div class="resume_container">
+					<div class="col-md-6 col-sm-6 left">
+						<h3>Работа</h3>
+							<div class="resume_icon"><i class="icon-basic-case"></i></div>
+							<div class="resume_item">
+								<div class="year">2014-2016</div>
+								<div class="resume_descr">Навыки Skills <strong>Front-end</strong></div>
+								<p>Хорошо владею HTML, CSS, SASS версткой знаю и пользуюсь W3C validator, адаптивная bootstrap верстка, уверенно юзаю jQuery, javascript, github. Дружу с Photoshop на уровне нарезки макетов. </p>
+							</div>
+							<div class="resume_item">
+								<div class="year">2013-2016</div>
+								<div class="resume_descr">Программирование <strong>Back-end</strong></div>
+								<p>Уверенно владею PHP, OOP для создания и редактирования различных плагинов и скриптов, знаю mySQL управление, удаление, редактирования баз данных.</p>
+							</div>
+					</div>
+					<div class="col-md-6 col-sm-6 right">
+						<h3>Учеба</h3>
+						<div class="resume_icon"><i class="icon-basic-book-pen"></i></div>
+						<div class="resume_item">
+							<div class="year">2009-2013</div>
+							<div class="resume_descr"><strong>Инженер Телекоммуникаций</strong>"ХКГУТ"</div>
+							<p>Закончил обучение в Харьковском колледже Государственного Университета Телекоммуникаций по квалификации бакалавр и специальности Инженер телекоммуникационных сетей и систем.</p>
+						</div>
+						<div class="resume_item">
+							<div class="year">2006-2016</div>
+							<div class="resume_descr"><strong>Хобби и Увлечения</strong>Дополнительная информация</div>
+							<p>Владею двумя языками Украинским и Английским (Upper-Elementary), интересуюсь администрированием linux систем, ну и мое самое любимое хобби это front end разработка и эксперементирование в веб дизайне.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
-	<div class="hidden"></div>
+<section id="portfolio" class="s_portfolio bg_dark">
+	<div class="section_header">
+		<h2>Портфолио</h2>
+		<div class="s_descr_wrap">
+			<div class="s_descr">Мои работы</div>
+		</div>
+	</div>
+	<div class="section_contant">
+		<div class="container">
+			<div class="row">
+				<div class="filter_div controls">
+					<ul>
+						<li class="filter active" data-filter="all">Все работы</li>
+						<li class="filter" data-filter=".category-2">Сайты</li>
+						<li class="filter" data-filter=".category-1">Логотипы</li>
+					</ul>
+				</div>
+				<div id="portfolio_grid">
+					<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-2">
+						<img src="img/portfolio-images/Active_Box.png" alt="active_box_page_template">
+						<div class="portfolio_hover_content">
+							<h4>Active page</h4>
+							<p>responsive page design</p>
+							<a href="#" class="popup_content">Посмотреть</a>
+						</div>
+						<div class="hidden">
+							<div class="port_descr">
+								<div class="modal-box-content">
+									<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+									<h3>Active box page</h3>
+									<p>Этот template очень популярен в сети и я не однократно на него натыкался, он является адаптивным (responsive) и я еще думаю что сюда добавить.</p>
+									<a href="portfolio_works/active_page/index.html" target="_blank" class="fullscreen_link">Перейти к полной версии сайта</a>
+									<img src="img/portfolio-images/Active_Box.png" alt="active_box_page_template">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-2">
+						<img src="img/portfolio-images/Blogged.png" alt="blogged_page_template">
+						<div class="portfolio_hover_content">
+							<h4>Blogger page</h4>
+							<p>futuristic blog design</p>
+							<a href="#" class="popup_content">Посмотреть</a>
+						</div>
+						<div class="hidden">
+							<div class="port_descr">
+								<div class="modal-box-content">
+									<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+									<h3>Engaging blog page</h3>
+									<p>Эта работа сверстана из обычного psd макета с какого то сайта, ее дизайн мне показался очень занятным и привлекательным так как здесь используются приятные цвета, думаю многим блогерам она прийдется по вкусу.</p>
+									<a href="portfolio_works/blogger_page/index.html" target="_blank" class="fullscreen_link">Перейти к полной версии сайта</a>
+									<img src="img/portfolio-images/Blogged.png" alt="blogged_page_template">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-2">
+						<img src="img/portfolio-images/company_page.png" alt="company_blog_page_temaplate">
+						<div class="portfolio_hover_content">
+							<h4>Company blog page</h4>
+							<p>Company strong design</p>
+							<a href="#" class="popup_content">Посмотреть</a>
+						</div>
+						<div class="hidden">
+							<div class="port_descr">
+								<div class="modal-box-content">
+									<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+									<h3>Company blog page</h3>
+									<p>Эту работу я делал одну из первых, поэтому она такая серая не очень привлекательная и на ней не присудствуют какие либо эффекты наведения или анимации, она здесь для того чтобы показать как я начинал заниматься версткой и как изменились мои навыки.</p>
+									<a href="portfolio_works/company_page/index.html" target="_blank" class="fullscreen_link">Перейти к полной версии сайта</a>
+									<img src="img/portfolio-images/company_page.png" alt="compnay_blog_page_template">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-2">
+						<img src="img/portfolio-images/compoundStock.png" alt="">
+						<div class="portfolio_hover_content">
+							<h4>Compound Page</h4>
+							<p>responsive template</p>
+							<a href="#" class="popup_content">Посмотреть</a>
+						</div>
+						<div class="hidden">
+							<div class="port_descr">
+								<div class="modal-box-content">
+									<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+									<h3>Compound Page</h3>
+									<p>Верстку этого и следующего макета я дела из ai (Illustrator) а не из привычного psd файла, оказалось ничего сложного правда пришлось немного привыкнуть к интерфейсу. Ненавящивый дизайн страницы дает понять что js здесь не нужен.</p>
+									<a href="portfolio_works/works/pages/index.html" target="_blank" class="fullscreen_link">Перейти к полной версии сайта</a>
+									<img src="img/portfolio-images/compoundStock.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-2">
+						<img src="img/portfolio-images/compoundStock_2.png" alt="">
+						<div class="portfolio_hover_content">
+							<h4>Another compound page</h4>
+							<p>responsive template another</p>
+							<a href="#" class="popup_content">Посмотреть</a>
+						</div>
+						<div class="hidden">
+							<div class="port_descr">
+								<div class="modal-box-content">
+									<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+									<h3>Compound page next</h3>
+									<p>Обе работы эта и предидущая страница являются адаптивными (responsive) под все популярные разрешения. </p>
+									<a href="portfolio_works/works/pages/index2.html" target="_blank" class="fullscreen_link">Перейти к полной версии сайта</a>
+									<img src="img/portfolio-images/compoundStock_2.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-1 possible_portfolio_item">
+						<div class="portfolio_hover_content">
+							<h4>Заголовок работы</h4>
+							<p>Описание работы</p>
+							<a href="#" class="popup_content">Посмотреть</a>
+						</div>
+						<div class="hidden">
+							<div class="port_descr">
+								<div class="modal-box-content">
+									<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+									<h3>Заголовок работы</h3>
+									<p>Краткое описание работы</p>
+									<a href="#" target="_blank" class="fullscreen_link">Перейти к полной версии сайта</a>
+									<img src="img/portfolio-images/work.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-1 possible_portfolio_item">
+						<div class="portfolio_hover_content">
+							<h4>Заголовок работы</h4>
+							<p>Описание работы</p>
+							<a href="#" class="popup_content">Посмотреть</a>
+						</div>
+						<div class="hidden">
+							<div class="port_descr">
+								<div class="modal-box-content">
+									<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+									<h3>Заголовок работы</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa aspernatur totam aperiam explicabo, quisquam vitae magnam, odio sunt voluptatem eos dolor autem nemo nostrum tenetur fugiat aliquam iure quidem sequi.</p>
+									<a href="#" target="_blank" class="fullscreen_link">Перейти к полной версии сайта</a>
+									<img src="img/portfolio-images/work.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-1 possible_portfolio_item">
+						
+						<div class="portfolio_hover_content">
+							<h4>Заголовок работы</h4>
+							<p>Описание работы</p>
+							<a href="#" class="popup_content">Посмотреть</a>
+						</div>
+						<div class="hidden">
+							<div class="port_descr">
+								<div class="modal-box-content">
+									<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+									<h3>Заголовок работы</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa aspernatur totam aperiam explicabo, quisquam vitae magnam, odio sunt voluptatem eos dolor autem nemo nostrum tenetur fugiat aliquam iure quidem sequi.</p>
+									<a href="#" target="_blank" class="fullscreen_link">Перейти к полной версии сайта</a>
+									<img src="img/portfolio-images/work.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
-	<!--[if lt IE 9]>
-	<script src="libs/html5shiv/es5-shim.min.js"></script>
-	<script src="libs/html5shiv/html5shiv.min.js"></script>
-	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
-	<script src="libs/respond/respond.min.js"></script>
-	<![endif]-->
+<section id="contacts" class="s_contacts blur_bg" data-parallax="scroll" data-image-src="img/contact_background.jpg" data-z-index="-1">
+	<div class="section_header">
+		<h2>Контакты</h2>
+		<div class="s_descr_wrap">
+			<div class="s_descr">Мои контактные данные</div>
+		</div>
+	</div>
+	<div class="section_contant">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="contact_box">
+						<i class="contact_icon icon-basic-geolocalize-01"></i>
+						<h4>Адрес:</h4>
+						<p>Украина г.Харьков</p>
+					</div>
+					<div class="contact_box">
+						<i class="contact_icon icon-basic-smartphone"></i>
+						<h4>Телефон:</h4>
+						<p class="phone_text">+3 8 050 630 61 75</p>
+					</div>
+					<div class="contact_box">
+						<i class="contact_icon icon-basic-world"></i>
+						<h4>Web-site:</h4>
+						<a href="https://constantinehub.github.io" target="_blank">constantinehub.github.io</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
+<footer class="main_footer bg_dark">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<p>&copy; 2016 Constantine Shibaev</p>
+				<div class="social_wrap">
+						<ul>
+							<li><a href="https://vk.com/id12080945" target="_blank"><i class="fa fa-vk"></i></a></li>
+							<li><a href="https://www.facebook.com/Breathe.now.rise" target="_blank"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://github.com/Constantinehub" target="_blank"><i class="fa fa-github"></i></a></li>
+						</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
 
-	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
-	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
-	<script src="js/libs.js"></script>
-	<script src="js/owl.carousel.js"></script>
-	<script src="js/common.js"></script>
-	<!-- Load Scripts Start -->
-<!-- 	<script>var scr = {"scripts":[
-	{"src" : "js/libs.js", "async" : false},
-	{"src" : "js/common.js", "async" : false}
-	]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
-</script> -->
-	<!-- Load Scripts End -->
+<div class="hidden"></div>
+<!--[if lt IE 9]>
+<script src="libs/html5shiv/es5-shim.min.js"></script>
+<script src="libs/html5shiv/html5shiv.min.js"></script>
+<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
 
+<script src="libs/jquery/jquery-2.1.3.min.js"></script>
+<script src="libs/parallax/parallax.min.js"></script>
+<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="libs/mixitup/mixitup.min.js"></script>
+<script src="libs/jqBootstrapValidation/jqBootstrapValidation.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/waypoints/waypoints.min.js"></script>
+<script src="libs/animate/animate-css.js"></script>
+<script src="libs/jquery-transit/jquery.transit.js"></script>
+<script src="libs/smooth_scroll/plugins-scroll.js"></script>
+<script src="js/common.js"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
 </html>
