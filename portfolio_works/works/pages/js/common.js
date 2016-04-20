@@ -12,7 +12,7 @@ $(function() {
 
 	$("img, a").on("dragstart", function(event) { event.preventDefault(); });
 
-	if ($(window).width() > 768) {
+
 		$("ul.nav > li").hover(function() {
 			$(this).find(".dropdown-menu").stop(true, true).delay(200).fadeIn();
 			$("ul.nav > li a").removeAttr("data-toggle");
@@ -20,7 +20,7 @@ $(function() {
 			$(this).find(".dropdown-menu").stop(true, true).delay(200).fadeOut();
 			$("ul.nav > li a").attr("data-toggle", "dropdown");
 		});
-	};
+
 
 
 });
