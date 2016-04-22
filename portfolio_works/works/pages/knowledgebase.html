@@ -5,7 +5,7 @@
 
 	<meta charset="utf-8">
 
-	<title>Home</title>
+	<title>Knowledgebase</title>
 
 	<!-- Contend for SEO -->
 	<meta name="description" content="">
@@ -20,15 +20,12 @@
 	<link rel="apple-touch-icon" sizes="72x72" href="">
 	<link rel="apple-touch-icon" sizes="114x114" href="">
 	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/owl.carousel.css">
 
 	<!-- Load CSS, CSS Localstorage & WebFonts Main Function -->
-	<script>
-		!function(e){"use strict";function t(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function n(t,n){return e.localStorage&&localStorage[t+"_content"]&&localStorage[t+"_file"]===n}function a(t,a){if(e.localStorage&&e.XMLHttpRequest)n(t,a)?o(localStorage[t+"_content"]):l(t,a);else{var s=r.createElement("link");s.href=a,s.id=t,s.rel="stylesheet",s.type="text/css",r.getElementsByTagName("head")[0].appendChild(s),r.cookie=t}}function l(e,t){var n=new XMLHttpRequest;n.open("GET",t,!0),n.onreadystatechange=function(){4===n.readyState&&200===n.status&&(o(n.responseText),localStorage[e+"_content"]=n.responseText,localStorage[e+"_file"]=t)},n.send()}function o(e){var t=r.createElement("style");t.setAttribute("type","text/css"),r.getElementsByTagName("head")[0].appendChild(t),t.styleSheet?t.styleSheet.cssText=e:t.innerHTML=e}var r=e.document;e.loadCSS=function(e,t,n){var a,l=r.createElement("link");if(t)a=t;else{var o;o=r.querySelectorAll?r.querySelectorAll("style,link[rel=stylesheet],script"):(r.body||r.getElementsByTagName("head")[0]).childNodes,a=o[o.length-1]}var s=r.styleSheets;l.rel="stylesheet",l.href=e,l.media="only x",a.parentNode.insertBefore(l,t?a:a.nextSibling);var c=function(e){for(var t=l.href,n=s.length;n--;)if(s[n].href===t)return e();setTimeout(function(){c(e)})};return l.onloadcssdefined=c,c(function(){l.media=n||"all"}),l},e.loadLocalStorageCSS=function(l,o){n(l,o)||r.cookie.indexOf(l)>-1?a(l,o):t(e,"load",function(){a(l,o)})}}(this);
-	</script>
+	<script>!function(e){"use strict";function t(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function n(t,n){return e.localStorage&&localStorage[t+"_content"]&&localStorage[t+"_file"]===n}function a(t,a){if(e.localStorage&&e.XMLHttpRequest)n(t,a)?o(localStorage[t+"_content"]):l(t,a);else{var s=r.createElement("link");s.href=a,s.id=t,s.rel="stylesheet",s.type="text/css",r.getElementsByTagName("head")[0].appendChild(s),r.cookie=t}}function l(e,t){var n=new XMLHttpRequest;n.open("GET",t,!0),n.onreadystatechange=function(){4===n.readyState&&200===n.status&&(o(n.responseText),localStorage[e+"_content"]=n.responseText,localStorage[e+"_file"]=t)},n.send()}function o(e){var t=r.createElement("style");t.setAttribute("type","text/css"),r.getElementsByTagName("head")[0].appendChild(t),t.styleSheet?t.styleSheet.cssText=e:t.innerHTML=e}var r=e.document;e.loadCSS=function(e,t,n){var a,l=r.createElement("link");if(t)a=t;else{var o;o=r.querySelectorAll?r.querySelectorAll("style,link[rel=stylesheet],script"):(r.body||r.getElementsByTagName("head")[0]).childNodes,a=o[o.length-1]}var s=r.styleSheets;l.rel="stylesheet",l.href=e,l.media="only x",a.parentNode.insertBefore(l,t?a:a.nextSibling);var c=function(e){for(var t=l.href,n=s.length;n--;)if(s[n].href===t)return e();setTimeout(function(){c(e)})};return l.onloadcssdefined=c,c(function(){l.media=n||"all"}),l},e.loadLocalStorageCSS=function(l,o){n(l,o)||r.cookie.indexOf(l)>-1?a(l,o):t(e,"load",function(){a(l,o)})}}(this);</script>
 
 	<!-- Load CSS Start -->
+	<script>loadLocalStorageCSS( "webfonts", "css/fonts.min.css?ver=1.0.0" );</script>
 	<script>loadCSS( "css/header.min.css?ver=1.0.0", false, "all" );</script>
 	<script>loadCSS( "css/main.min.css?ver=1.0.0", false, "all" );</script>
 	<!-- Load CSS End -->
@@ -37,7 +34,7 @@
 	<noscript>
 		<link rel="stylesheet" href="css/fonts.min.css">
 		<link rel="stylesheet" href="css/main.min.css">
-		<link rel="stylesheet" href="css/menu.css">
+
 	</noscript>
 
 </head>
@@ -52,7 +49,6 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="container blocks_menu">
-							<a href="#" id="touch_menu">Head Menu:</a>
 							<nav>
 								<ul class="navigation clearfix right">
 									<li><a href="about-cse.html">About cse</a></li>
@@ -69,16 +65,16 @@
 		<div class="head">
 			<div class="container">
 				<div class="row">
-					<div class="col-xs-12 col-md-6 responsive_block">
+					<div class="col-md-6">
 						<div class="logo_section">
 							<a href="/"><img src="img/logotip.png" alt=""></a>
 						</div>
 					</div>
-					<div class="col-md-6">
+					
 						<div class="link_section">
 							<a href="http://unconventionalwisdom.libsyn.com" target="_blank">Radio schedule &amp; archive</a>
 						</div>
-					</div>
+					
 				</div>
 			</div>
 		</div>
@@ -89,7 +85,7 @@
 						<ul class="nav navbar-nav">
 								<li class="active"><a class="hoveffect" href="index.html">home</a></li>
 								<li class="dropdown">
-									<a href="strategies.html" class="dropdown-toggle" data-target="strategies.html" data-toggle="dropdown">strategies<b class="caret"></b>
+									<a href="strategies.html" class="dropdown-toggle" data-toggle="dropdown">strategies<b class="caret"></b>
 									</a>
 									<ul class="dropdown-menu" role="menu">
 										<li><a href="strategies-covered-calls.html">Covered Calls</a></li>
@@ -140,147 +136,113 @@
 									</a>
 									<ul class="dropdown-menu" role="menu">
 										<li><a href="knowledgebase-free-covered-calls-webinar.html">Free Covered Calls Webinar</a></li>
-										<li><a href="knowledgebase-covered-calls-leaps.html">Covered Calls &amp; LEAPS (Book)</a></li>
-										<li><a href="http://unconventionalwisdom.libsyn.com" target="_blank">Radio Show Schedule &amp; Archive</a></li>
+										<li><a href="knowledgebase-covered-calls-leaps.html">Covered Calls & LEAPS (Book)</a></li>
+										<li><a href="http://unconventionalwisdom.libsyn.com" target="_blank">Radio Show Schedule & Archive</a></li>
 										<li><a href="knowledgebase-the-cow-report.html">The Cow Report</a></li>
 										<li><a href="knowledgebase-success-stories.html">Success Stories</a></li>
 										<li><a href="knowledgebase-additional-resources.html">Additional Resources</a></li>
 									</ul>
 								</li>
 							</ul>
+
 					</div>
 				</div>
 			</div>
 		</div>
 
-
-			
-		</div>
-		<div class="slider_main">
-			<div id="owl-example" class="owl-carousel">
-				<div class="slider-items">
-					<img src="img/01-slider-people-smarter.jpg" alt="">
-					<div class="slider-description">
-						<h1>Maximize Your Interests.</h1>
-						<p>CSE's Platinum Services offer personal guidance and advice from our investing experts.</p>
-						<a href="#">Learn more >> </a>
-					</div>
-				</div>
-				<div class="slider-items">
-					<img src="img/02-slider-graph-growth.jpg" alt="">
-					<div class="slider-description">
-						<h1>It's All About Growth.</h1>
-						<p>CSE's rule-based investment strategies have a proven track record, regardless of market conditions.</p>
-						<a href="#">Learn more >> </a>
-					</div>
-				</div>
-				<div class="slider-items">
-					<img src="img/03-slider-woman-right-balance.jpg" alt="">
-					<div class="slider-description">
-						<h1>Strike the Right Balance.</h1>
-						<p>The best investment strategy is the one that's best for you, your goals, and your experience level</p>
-						<a href="#">Learn more >> </a>
-					</div>
-				</div>
-				<div class="slider-items">
-					<img src="img/slider_img.png" alt="">
-					<div class="slider-description">
-						<h1>Invest smarter. Not Harder.</h1>
-						<p>Discover the power of proven, rules-based investing with our FREE COVERED CALLS SEMINAR!</p>
-						<a href="#">Learn more >> </a>
-					</div>
-				</div>
-			</div>
-		</div>
-
-
-
-
-		<div class="main_description">
+		<div class="content_wrap">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12">
-						<div class="descr">
-							<h2>Discover how investors are learning to make consistent <br /> monthly cash income, regardless of market direction</h2>
-							<p>If you want to take control of your finances and manage your own investments, then Compound Stock Earnings (CSE) will teach you a clear, rules-based system for investing for consistent cash flow.</p>
-							<p>If you own stocks and you’re not selling Covered Calls, you’re leaving significant money on the table each month. Even if you don’t own stocks, CSE will teach you how to use Covered Calls to create consistent returns with as little as 4 hours of your time per month. Our weekly <a href="knowledgebase-free-covered-calls-webinar.html">FREE COVERED CALLS WEBINAR</a> will introduce you to the concept of Covered Calls, and show you how it’s possible to earn 3 - 6 % PER MONTH from a stock portfolio, regardless of market direction.</p>
-							<p>If you have more time and want to earn more income, then CSE provides a range of other <a href="strategies.html">STRATEGIES</a> to suit your needs.</p>
+					<div class="col-md-8">
+						<div class="main_content">
+							<section class="section_content_1">
+								<h1>STRATEGIES: OVERVIEW</h1>
+								<h2 class="section_news_header">The right investment strategy...<br>is the one that’s right for you!</h2>
+								<a href="#">another name</a>
+								<p>Every investment strategy comes down to one thing—balance of risk &amp; reward.<br> Ultimately, the best strategy is the one that fits your goals, desires, and experience<br> level. That's why CSE offers a variety of seminars, toolboxes and platinum services<br> to support a variety of strategies.</p>
+								<div class="sexangle">
+									<div class="triangle-left"></div>
+										<div class="triangle-center">
+											<span class="left_figure">LESS AGGRESSIVE</span>
+											<span class="right_figure">MORE AGGRESSIVE</span>
+										</div>
+										<div class="triangle-right"></div>
+								</div>
+								<div class="parent_blocks">
+									<div class="color_blocks color_green">
+										<div class="text_blocks">Covered Calls</div>
+									</div>
+									<div class="color_blocks color_blue">
+										<div class="text_blocks">Weekly Credit Spreads</div>
+									</div>
+									<div class="color_blocks color_orange">
+										<div class="text_blocks">Strangle/ Straddle/Hold &amp; Momentum Trading</div>
+									</div>
+									<div class="color_blocks color_red">
+										<div class="text_blocks">Trade the Moment</div>
+									</div>
+								</div>
+							</section>
+							<section class="section_content_2">
+								<h3>COVERED CALLS</h3><br>
+								<h2 class="section_news_header">Earn a monthly return of 3%-6% in as few as 4 hrs./month!</h2>
+								<p>Trading covered calls options is a proven rule-based strategy with a proven success<br> record. For conservative investors, this strategy offers the least risk and, for both<br> experienced and novice traders, it's really the best place to start.</p>
+								<a href="#">Attend our FREE Covered Calls Webinar. >></a><br>
+								<a href="#">Register for our intensive 2-Day Covered Calls Seminar. >></a><br>
+								<a href="#">Learn more about Covered Calls. >></a><br>
+							</section>
+							<section class="section_content_3">
+								<h3>WEEKLY CREDIT SPREADS</h3><br>
+								<h2 class="section_news_header">A great way to do more with less!</h2>
+								<p>If you're an investor with a bit more experience under your belt, but you're also<br> limited by account size, then Weekly Credit Spreads may be a good strategy for you.<br> While it's slightly less conservative strategy than Covered Calls, our Credit Spread<br> Platinum service will help guide you with expert advice and personal assistance.</p>
+								<a href="#">Register for our intensive 2-Day Credit Spread/SSH Seminar. >></a><br>
+								<a href="#">Learn more about Weekly Credit Spreads. >></a><br>
+							</section>
+						</div>
+					</div>
+					<div class="col-md-4 clear_padding">
+						<div class="right_sidebar">
+							<div class="sidebar_news_block first_block">
+								<div class="sidebar_img"></div>
+								<h4>WATCH OUR 2-HOUR<br> COVERED CALLS<br> INTRODUCTORY WORKSHOP</h4>
+								<p>Learn how to lock in a MONTHLY return of<br> between 3%–6% on a stock investment</p>
+								<a href="#" class="sidebar_button">WATCH NOW</a>
+							</div>
+							<div class="sidebar_news_block second_block">
+								<img src="img/micro_2.png" alt="">
+								<h4>TUNE IN TO THE<br> CSE Investment Show<br> UNCONVENTIONAL<br> WISDOM</h4>
+								<div class="sidebar_text_block">
+									<p>This weekly financial talk back<br> radio program airing in<br> Dallas, LA, Boston &amp; Chicago<br> features interviews with<br> CSE clients, and answers to<br> our listeners’ questions. </p>
+									<a href="#">See the Radio Schedule &amp;</a><br>
+									<a href="#">Visit the Archive of Shows</a>
+								</div>
+							</div>
+							<div class="sidebar_news_block third_block">
+								<img src="img/img_4.png" alt="">
+								<h4>GET YOUR<br> FREE SUBSCRIPTION TO<br> THE COW REPORT</h4>
+								<p>Our weekly newsletter,<br> filled with investing insights,<br> answers and updates!</p>
+								<a href="#" class="sidebar_button">SUBSCRIBE</a>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="services">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4">
-						<div class="s_colum education">
-							<img src="img/img_1.png" alt="">
-							<h3>FINANCIAL EDUCATION</h3>
-							<p>Our investment seminars are unmatched in the industry, with free re-attends for life and free trials of our proprietary tools!</p>
-							<a href="seminars.html">LEARN MORE</a>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="s_colum tools">
-							<img class="popravka" src="img/img_2.png" alt="">
-							<h3>INVESTING TOOLS</h3>
-							<p class="column_item_2">The CSE propriety toolbox is designed to support CSE’s key investing strategies while maximizing market performance!</p>
-							<a id="clear_pad" href="tools.html">LEARN MORE</a>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="s_colum servis">
-							<img src="img/img_3.png" alt="">
-							<h3>PLATINUM SERVICES</h3>
-							<p class="column_item_3">Under the direction of proven industry professionals, platinum subscribers receive personal advice and insights.</p>
-							<a href="services.html">LEARN MORE</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="news_section">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-md-6">
-						<div class="micro_news">
-							<h4>Tune in to Unconventional Wi$dom:<br><b>The CSE investment Show</b></h4>
-							<p>CSE founder Joseph Hooper hosts UNCONVENTIONAL WI$DOM: The CSE Investment Show, a weekly financial radio program. Tune in, and you'll hear how CSE clients are making returns between 3% and 6% per month, even those who had never bought a stock before becoming a CSE client!
-							<br><a href="http://unconventionalwisdom.libsyn.com" target="_blank">See the Radio Schedule & Visit the Archive of Shows. >></a></p>
-							<img class="micro" src="img/micro_2.png" alt="">
-						</div>
-					</div>
-					<div class="col-xs-12 col-md-6">
-						<div class="cow_news">
-						<div class="paper">
-							<h4>GET YOUR FREE  SUBSCRIPTION TO<br><b>THE COW REPORT</b></h4>
-							<img src="img/img_4.png" alt="">
-							<p>Each week, our experts sift through all the week's correspondence we've received from our clients across the world, and compile the most interesting questions, answers and comments into a weekly e-newsletter... The CSE Cow Report.<br><a href="knowledgebase-the-cow-report.html">Get your free 2-month subscription. >></a></p>
-						</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
 		<div class="section_text">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h5>Tap into the power and income potential of covered call <br> 
-						trading with a commitment of as little as 4 hours a month!</h5>
-						<p>Writing covered calls involves selling call options against your stock holdings. With this investing strategy, investors can gain consistent monthly income from their stock portfolios without selling the stocks, and regardless of market direction. If you're not selling covered calls, you're leaving significant sums of money on the table each month!</p>
-						<a href="strategies-covered-calls.html">Learn more >></a>
+						<h5>What stock marketing investment strategy is best in this market?</h5>
+						<p>The best stock market strategy is the one that best fits your goals, desires, experience level and<br> budgetary considerations. You must weight the benefits of value strategies and reward strategies.<br> Regardless, rules-based investing works equally well for novices and experts alike.</p>
+						<a href="#">Attend our Free 2-Hour Covered Calls Introductory Webinar. >></a>
 					</div>
 				</div>
 			</div>
 		</div>
-		
 
-		
+
+				
 		<div class="section_text">
 			<div class="container">
 				<div class="row">
@@ -293,7 +255,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<div class="footer">
 			<div class="container">
 				<div class="row">
@@ -337,8 +299,8 @@
 						<ul>
 							<li><a href="knowledgebase.html"><strong>KNOWLEDGEBASE</strong></a></li>
 							<li><a href="knowledgebase-free-covered-calls-webinar.html">Free Covered Calls Webinar</a></li>
-							<li><a href="knowledgebase-covered-calls-leaps.html">Covered Calls &amp; LEAPS (Book)</a></li>
-							<li><a href="http://unconventionalwisdom.libsyn.com" target="_blank">Radio Show Schedule &amp; Archive</a></li>
+							<li><a href="knowledgebase-covered-calls-leaps.html">Covered Calls & LEAPS (Book)</a></li>
+							<li><a href="http://unconventionalwisdom.libsyn.com" target="_blank">Radio Show Schedule & Archive</a></li>
 							<li><a href="knowledgebase-the-cow-report.html">The Cow Report</a></li>
 							<li><a href="knowledgebase-success-stories.html">Success Stories</a></li>
 							<li><a href="knowledgebase-additional-resources.html">Additional Resources</a></li>
@@ -376,7 +338,6 @@
 	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
 	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
 	<script src="js/libs.js"></script>
-	<script src="js/owl.carousel.js"></script>
 	<script src="js/common.js"></script>
 	<!-- Load Scripts Start -->
 <!-- 	<script>var scr = {"scripts":[

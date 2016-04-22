@@ -22,6 +22,18 @@ $(function() {
 		});
 	};
 
+/*	if ($(".nav li").hasClass('dropdown')) {
+		$(this).dblclick(function() {
+			location.href = $(this).attr('href');
+		});
+	};*/
+
+	if ($(window).width() < 768) {
+		$(".nav li > a").on("dblclick", function(event) {
+			location.href = $(this).attr('href');
+		});
+	};
+
 
 });
 
