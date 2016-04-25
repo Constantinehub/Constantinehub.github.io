@@ -3262,7 +3262,7 @@ body textarea:required:valid {
     color: #D1D1D1
 }
 
-.top_line a:active,
+.top_line a.active,
 .top_line a:hover {
     text-decoration: none;
     background: #14B4FA;
@@ -3284,28 +3284,34 @@ body textarea:required:valid {
 }
 
 .text-right {
-    text-align: right
+    text-align: right;
 }
 
 .navigation {
     background-color: #1E3C82;
-    margin-top: 10px
+    margin-top: 10px;
 }
 
 .navigation li {
-    float: left
+    float: left;
 }
 
 .navigation li a {
     display: inline-block;
-    color: #D1D1D1
+    color: #D1D1D1;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+
 }
 
 #touch_menu:hover,
 .navigation li a:hover {
     background-color: #14B4FA;
     color: #fff;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .navigation li a.active {
@@ -3315,7 +3321,7 @@ body textarea:required:valid {
 
 #touch_menu {
     color: #D1D1D1;
-    display: none
+    display: none;
 }
 
 .head {
@@ -3347,7 +3353,7 @@ body textarea:required:valid {
 
 .head .logo_section p b {
     font-weight: 400;
-    color: #1789CA
+    color: #1789CA;
 }
 
 .head .logo_section span {
@@ -3376,6 +3382,19 @@ body textarea:required:valid {
 .link_section a:hover {
     cursor: pointer;
     text-decoration: underline;
+}
+
+.main-mnu-active {
+    background: #1E3C82;
+    color: #fff;
+}
+
+.main-mnu-active .caret {
+    color: #fff;
+}
+
+.main-mnu-active > a:first-child {
+    color: #fff;
 }
 
 .main_mnu {
@@ -3411,8 +3430,11 @@ body textarea:required:valid {
 .nav li a {
     color: #666;
     padding: 15px 25px;
-    -moz-transition: 0.2s;
-    transition: 0.2s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
 }
 
 .nav .open>a,
@@ -3439,17 +3461,6 @@ body textarea:required:valid {
     background: #E1E1E1;
     color: #666
 }
-
-/* .active {
-    background: #1E3C82;
-    color: #fff;
-}
-
-.active .caret {
-    color: #fff;
-} */
-
-
 
 .caret {
     margin-left: 5px
@@ -4181,9 +4192,53 @@ body textarea:required:valid {
 }
 
 @media only screen and (max-width:992px) {
-    .slider_main .carousel .item {
-        height: 100%
+    
+    .owl-carousel {
+        margin: 0 auto;
     }
+
+    .slider_main {
+        padding: 20px;
+    }
+
+    .slider_main .slider-items {
+        height: 300px;
+    }
+
+    .owl-prev i {
+        position: absolute;
+        top: 45%;
+        left: 25px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .owl-next i {
+        position: absolute;
+        top: 45%;
+        right: 25px;
+        margin: 0;
+        padding: 0;
+    }
+    .slider-description {
+        padding: 20px 20px 20px 5px;
+    }
+    .slider-description h1 {
+        font-family: "OpenSans-ExtraBold",sans-serif;
+        font-weight: 800;
+        font-size: 30px;
+        margin: 0;
+        padding-bottom: 15px;
+    }
+    .slider-description p {
+        font-size: 14px;
+        padding-bottom: 15px;
+    }
+    .slider-description a {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
     .logo_section a {
         top: 5px;
         left: 32px
@@ -4224,6 +4279,11 @@ body textarea:required:valid {
         display: table-cell;
     }
 
+    .nav .open > a:hover,
+    .nav .open > a:focus {
+        background: #1e3c82;
+    }
+
     .nav .open .dropdown-menu li a {
         padding: 15px 25px;
         width: 100%;
@@ -4244,7 +4304,7 @@ body textarea:required:valid {
     .mobile-mnu_link {
         width: 100%;
         text-align: right;
-        border-left: 2px solid #d1d1d1;
+        border-left: 1px solid #d1d1d1;
     }
 
     .news_section,
@@ -4253,7 +4313,7 @@ body textarea:required:valid {
         height: 100%
     }
     .slider_main .slider-items {
-        height: 300px;
+        height: 240px;
     }
     .owl-prev i {
         position: absolute;
@@ -4270,16 +4330,24 @@ body textarea:required:valid {
         margin: 0;
         padding: 0;
     }
+    .slider-description {
+        padding: 20px 20px 20px 5px;
+    }
     .slider-description h1 {
         font-family: "OpenSans-ExtraBold",sans-serif;
-        font-size: 25px;
+        font-size: 22px;
         font-weight: 800;
-        line-height: 30px;
+        line-height: 20px;
         margin: 0;
-        padding-bottom: 20px;
+        padding-bottom: 15px;
     }
     .slider-description p {
-        padding-bottom: 20px;
+        font-size: 14px;
+        padding-bottom: 0;
+    }
+    .slider-description a {
+        font-size: 13px;
+        line-height: 13px;
     }
     .cow_news {
         margin-top: 50px;

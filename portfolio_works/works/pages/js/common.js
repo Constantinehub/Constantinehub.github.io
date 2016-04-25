@@ -15,11 +15,11 @@ $(function() {
 	if ($(window).width() > 768) {
 		$("ul.nav > li").hover(function() {
 			$(this).find(".dropdown-menu").stop(true, true).delay(200).fadeIn();
-			$(this).addClass('active').css({color: "#fff"});
+			$(this).addClass('main-mnu-active').css({color: "#fff"});
 			$("ul.nav > li a").removeAttr("data-toggle");
 		}, function() {
 			$(this).find(".dropdown-menu").stop(true, true).delay(200).fadeOut();
-			$(this).removeClass('active');
+			$(this).removeClass('main-mnu-active');
 			$("ul.nav > li a").attr("data-toggle", "dropdown");
 		});
 	};
