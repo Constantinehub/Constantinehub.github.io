@@ -1,7 +1,5 @@
 $(function() {
 
-
-
 	//Chrome Smooth Scroll
 	try {
 		$.browserSelector();
@@ -14,9 +12,26 @@ $(function() {
 
 	$("img, a").on("dragstart", function(event) { event.preventDefault(); });
 
+	if ($(window).width() > 768) {
+		$("ul.nav > li").hover(function() {
+			$(this).find(".dropdown-menu").stop(true, true).delay(200).fadeIn();
+			$(this).addClass('main-mnu-active').css({color: "#fff"});
+			$("ul.nav > li a").removeAttr("data-toggle");
+		}, function() {
+			$(this).find(".dropdown-menu").stop(true, true).delay(200).fadeOut();
+			$(this).removeClass('main-mnu-active');
+			$("ul.nav > li a").attr("data-toggle", "dropdown");
+		});
+	};
+
+	if ($(window).width() > 768) {
+		$(".mobile-mnu_link").remove();
+	};
+
 });
 
 $(document).ready(function(){
+
 	var touch = $("#touch_menu");
 	var menu = $(".navigation");
 
@@ -30,4 +45,16 @@ $(document).ready(function(){
 			menu.removeAttr("style");
 		}
 	});
+
+	$("#owl-example").owlCarousel({
+		items: 1,
+		autoplay: true,
+		autoplayTimeout: 8000,
+		autoplayHoverPause: true,
+		loop: true,
+		nav: true,
+		dots: false,
+		navText: ['<i class="fa fa-chevron-left"></i>','<i class="fa fa-chevron-right"></i>']
+	});
+
 });
