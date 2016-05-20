@@ -124,7 +124,7 @@ a:visited {
 @media screen and (max-width: 991px) {
 	.head-menu li {
 		padding: 10px;
-		font-size: 14px;
+		font-size: 12px;
 	}
 }
 
@@ -324,6 +324,7 @@ a:visited {
 @media screen and (max-width: 479px) {
 	.sign-in form input,
 	.check-order form input {min-width: 100%;}
+	.sign-in, .check-order {padding: 30px 20px;}
 }
 
 .contacts {
