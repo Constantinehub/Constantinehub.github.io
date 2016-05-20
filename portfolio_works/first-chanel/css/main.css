@@ -285,7 +285,8 @@ a:visited {
 }
 
 .sign-in, .check-order {
-	padding: 40px ;
+	padding: 40px;
+	margin-bottom: 50px;
 	min-height: 350px;
 	text-align: center;
 	background-color: rgba(2, 110, 155, .4);
@@ -327,6 +328,7 @@ a:visited {
 
 .contacts {
 	padding: 35px 0;
+	margin-bottom: 50px;
 	min-height: 300px;
 	text-align: center;
 	background-color: rgba(2, 110, 155, .4);
@@ -334,6 +336,7 @@ a:visited {
 
 .profile {
 	padding: 35px;
+	margin-bottom: 50px;
 	text-align: center;
 	background-color: rgba(2, 110, 155, .4);
 }
@@ -368,6 +371,7 @@ a:visited {
 .comments {
 	text-align: center;
 	padding: 35px 35px 40px;
+	margin-bottom: 50px;
 	background-color: rgba(2, 110, 155, .4);
 }
 
@@ -400,6 +404,7 @@ a:visited {
 
 .contracts {
 	padding: 35px 0;
+	margin-bottom: 50px;
 	min-height: 500px;
 	text-align: center;
 	background-color: rgba(2, 110, 155, .4);
@@ -424,6 +429,7 @@ a:visited {
 
 .check-payment {
 	padding: 40px 20px;
+	margin-bottom: 50px;
 	text-align: center;
 	background-color: rgba(2, 110, 155, .4);
 }
